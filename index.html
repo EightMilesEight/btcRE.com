@@ -12,14 +12,19 @@
 </head>
 <body>
 
-<nav class="header">
+<header class="header">
     <div class="header-content">
         <a class="header-item-social" href=""><i class="fab fa-linkedin"></i></a>
         <a class="header-logo" href="http://www.btcre.com/"><img src="assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
-        <a class="header-item-link" href="">Portfolio</a>
-        <a class="header-item-link" href="">About Us</a>
+        <nav class="hamburger-menu">
+            <i class=" fa-solid fa-bars"></i>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+            </ul>
+        </nav>
     </div>
-</nav>
+</header>
 
 <section class="s-hero">
     <div class="s-hero-content">
@@ -66,22 +71,22 @@
                 lasting tenant relationships and provide attractive spaces that meet tenant's specifications.</p>
         </div>
         <div class="tenants-list">
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/formlabs.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hkt.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/vinfen.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/earthworm.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/beong.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/wojchiechowski.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/anjapark.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hrf.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/leveragepoint.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/eyenetra.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/typhoon.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/solarcity.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/gelsight.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/gdt.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hpgprint.png"></a>
-            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/total-rehab-and-fitness.png"></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/formlabs.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hkt.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/vinfen.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/earthworm.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/beong.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/wojchiechowski.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/anjapark.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hrf.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/leveragepoint.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/eyenetra.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/typhoon.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/solarcity.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/gelsight.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/gdt.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/hpgprint.png" alt=""></a>
+            <a href="https://formlabs.com" target="_blank"><img src="assets/tenants/total-rehab-and-fitness.png" alt=""></a>
         </div>
     </div>
 </section>
@@ -152,16 +157,18 @@
     }
 
     /*
-    Sticky header
+    Header
      */
     document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 0)';
     document.querySelector(".header-logo").style.opacity = '0';
     window.addEventListener("scroll", function() {
         if(this.scrollY > 0) {
             document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 1)';
+            document.querySelector(".hamburger-menu ul").classList.add('full-width');
         }
         else {
             document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 0)';
+            document.querySelector(".hamburger-menu ul").classList.remove('full-width');
         }
 
         if(isElementInViewport(document.querySelector(".hero-logo"))) {

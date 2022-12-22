@@ -102,7 +102,7 @@ u {
 
 .header-content {
     height: 100%;
-    width: 100%;
+    width: auto;
     max-width: 1400px;
     margin: 0;
     padding: 0;
@@ -132,11 +132,10 @@ u {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    text-align: center;
     color: #ffffff;
 }
 
-.header-item-link {
+.hamburger-menu {
     display: inline-block;
     height: 100%;
     margin: 0;
@@ -145,6 +144,53 @@ u {
     justify-items: center;
     align-items: center;
     font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ac0001;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburger-menu ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.hamburger-menu ul.full-width {
+    position: absolute;
+    margin-top: 3rem;
+}
+
+.hamburger-menu i {
+    width: 100%;
+    text-align: right;
+}
+
+.hamburger-menu li {
+    display: block;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    font-size: 0;
+    color: #ffffff;
+    background-color: #ac0001;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburger-menu:hover li,
+.hamburger-menu:focus li,
+.hamburger-menu:active li {
+    height: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.hamburger-menu a {
     text-decoration: none;
     color: #ffffff;
 }
