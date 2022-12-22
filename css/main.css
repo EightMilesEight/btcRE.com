@@ -1,0 +1,510 @@
+/* Built by 8Miles8 for btcRE LLC.*/
+
+/*
+Table of Contents:
+    General Page Styles
+        Animations
+    Header
+    Hero
+        Logo
+        Text
+    About
+        Header
+        Text
+    Tenants
+        Text
+        List
+    Portfolio
+    Bios
+    Footer
+*/
+
+/* General Page Styles */
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+     display: block;
+     margin: 0;
+     padding: 1rem;
+     font-size: 4rem;
+     font-weight: lighter;
+     text-decoration: none;
+     color: #222222;
+ }
+
+/* Animations */
+@keyframes shadow-drop {
+    0% {
+        box-shadow: #ac0001 0 0;
+    }
+
+    100% {
+        box-shadow: #ac0001 1.5rem 1.5rem;
+    }
+}
+
+mark {
+     color: #c9c9c9;
+}
+
+mark.is-visible {
+    --color1: #ac0001;
+    --color2: #ac0001;
+    --height: 100%;
+    all: unset;
+    background-image: linear-gradient(#ac0001, var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--height);
+    animation: mark-highlight 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mark-highlight {
+    to {
+        background-size: 100% var(--height);
+    }
+}
+
+u {
+    text-decoration-color: #ac0001;
+    text-decoration-thickness: 0.5rem;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    background-color: #ac0001;
+    transition: 1s ease-in-out;
+}
+
+.header-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-item-social {
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    float: left;
+    justify-items: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.header-logo {
+    transition: 1s ease-in-out;
+}
+
+.header-logo > img {
+    position: absolute;
+    height: 3.5rem;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-item-link {
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 1rem 1rem;
+    float: right;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Hero */
+.s-hero {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.s-hero-content {
+    height: 90%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/placeholder.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/* Hero Text */
+.hero-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-logo {
+    position: absolute;
+    max-height: 20%;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+@media (min-width: 1200px) {
+    .hero-text {
+        font-size: 8rem;
+    }
+
+    .hero-logo {
+        width: 20%;
+    }
+}
+
+/* About */
+.s-about {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    background-color: #ffffff;
+}
+
+.s-about-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Header */
+.about-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.about-header p {
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+@media (min-width: 1000px) {
+    .about-header p{
+        font-size: 2rem;
+    }
+}
+
+/* About Text */
+.about-text {
+    height: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+
+.about-text h2 {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.about-text p {
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.about-text a {
+    margin: 0;
+    padding: 1rem;
+    color: #ac0001;
+    text-decoration: none;
+}
+
+.about-text span {
+    margin: 0;
+    padding: 0;
+    color: #ac0001;
+    transition: 2s ease-out;
+}
+
+.about-text a span:hover,
+.about-text a span:focus,
+.about-text a span:active {
+    margin-right: 3rem;
+}
+
+.about-text span.is-visible {
+    font-size: 3rem;
+}
+
+.about-images {
+    max-width: 100%;
+    margin: 1rem 2.5rem 1rem 1rem;
+    padding: 0;
+    aspect-ratio: 3/2;
+    background-image: url("../assets/placeholder.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: #ac0001;
+    box-shadow: #ac0001 1.5rem 1.5rem;
+}
+
+.about-images.is-visible {
+    animation: shadow-drop ease-out 2s;
+}
+
+@media (min-width: 1200px) {
+    .about-text {
+        width: 40%;
+        margin: 5%;
+        padding: 0;
+        float: left;
+    }
+
+    .about-text h2 {
+        margin: 1rem;
+        padding: 0;
+        font-size: 3rem;
+    }
+
+    .about-text p {
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .about-text a {
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .about-text span.is-visible {
+        font-size: 3.5rem;
+    }
+
+    .about-images {
+        display: inline-block;
+        height: 25rem;
+        width: 40%;
+        margin: 5% auto;
+    }
+}
+
+/* Tenants */
+.s-tenants {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    background-color: #ffffff;
+}
+
+.s-tenants-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tenants Text */
+.tenants-text {
+    width: 100%;
+    margin: 3rem 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tenants-text h2 {
+    display: unset;
+    margin: 3rem 0 0;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: #222222;
+}
+
+.tenants-text p {
+    max-width: 100%;
+    margin: 3rem 0 0;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #222222;
+}
+
+@media (min-width: 1000px) {
+    .tenants-text p {
+        padding: 0 2rem;
+        font-size: 2rem;
+    }
+}
+
+/* Tenants List */
+.tenants-list {
+    display: flex;
+    width: calc(100% - 1rem);
+    margin: 0.5rem;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tenants-list a {
+    max-width: 20%;
+    margin: 0.5rem;
+    padding: 0;
+    align-self: center;
+}
+
+.tenants-list a img {
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .tenants-list {
+        display: flex;
+        width: calc(100% - 4rem);
+        margin: 2rem;
+        padding: 0;
+    }
+
+    .tenants-list a {
+        max-width: 15%;
+        margin: 1rem;
+    }
+}
+
+/* Portfolio */
+.s-portfolio {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.s-portfolio-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 5rem 0;
+}
+
+.portfolio-item {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 4rem 1rem;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.portfolio-item > img {
+    width: 100%;
+    border: 0;
+    transform: scale(1.1);
+    transition: 2s ease-out;
+}
+
+.portfolio-item > img.is-visible {
+    transform: scale(1);
+}
+
+.portfolio-item > h4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222222;
+}
+
+@media (min-width: 1000px) {
+    .portfolio-item {
+        width: calc(100% - 8rem);
+        margin: 4rem;
+    }
+}
+
+/* Bios */
+.s-bios {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.s-bios-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer */
+#footer {
+    background-color: #ac0001;
+    color: #222222;
+}
+
+#footer a {
+    color: #ffffff;
+}
