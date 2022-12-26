@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>btcRE</title>
+  <meta name="description" content="Morristown High School's very own radio station, live since 1971.">
+  <meta name="author" content="MHS Broadcasting Club">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="../../assets/btcre-logo.gif" >
+  <link rel="stylesheet" href="../../css/main.css">
+  <script src="https://kit.fontawesome.com/4a185d27a6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-content">
+    <a class="header-item-social" href=""><i class="fab fa-linkedin"></i></a>
+    <a class="header-logo" href="http://www.btcre.com/"><img src="../../assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
+    <nav class="hamburger-menu">
+      <i class=" fa-solid fa-bars"></i>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="s-hero">
+  <div class="s-hero-content">
+    <h1 class="hero-text">be the change.</h1>
+    <img class="hero-logo" src="../../assets/btcre-logo.gif" alt="btcRE be the change real estate logo">
+  </div>
+</section>
+
+
+
+<section class="s-footer">
+  <div class="s-footer-content">
+
+  </div>
+</section>
+
+</body>
+
+<script>
+  /*
+  Animate elements when they're scrolled to
+   */
+  const scroll = window.requestAnimationFrame ||
+          // For Internet Explorer, because it refuses to die
+          function (callback) {
+            window.setTimeout(callback, 1000 / 60)
+          };
+  const elementsToShow = document.querySelectorAll('.animate-on-scroll');
+
+  function loop() {
+    // When element is visible, add the 'is-visible' class, and remove it after it leaves
+    Array.prototype.forEach.call(elementsToShow, function(element){
+      if (isElementInViewport(element)) {
+        element.classList.add('is-visible');
+      } else {
+        element.classList.remove('is-visible');
+      }
+    });
+
+    scroll(loop);
+  }
+
+  loop();
+
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return (
+            (rect.top <= 0
+                    && rect.bottom >= 0)
+            ||
+            (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.top <= (window.innerHeight || document.documentElement.clientHeight))
+            ||
+            (rect.top >= 0 &&
+                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
+    );
+  }
+
+  /*
+  Header
+   */
+  document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 0)';
+
+  try {
+    if (isElementInViewport(document.querySelector(".hero-logo"))) {
+      document.querySelector(".header-logo").style.opacity = '0';
+    } else {
+      document.querySelector(".header-logo").style.opacity = '1';
+    }
+  }
+  catch {
+    document.querySelector(".header-logo").style.opacity = '1';
+  }
+
+  window.addEventListener("scroll", function() {
+    if(this.scrollY > 0) {
+      document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 1)';
+      document.querySelector(".hamburger-menu ul").classList.add('full-width');
+    }
+    else {
+      document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 0)';
+      document.querySelector(".hamburger-menu ul").classList.remove('full-width');
+    }
+
+    try {
+      if (isElementInViewport(document.querySelector(".hero-logo"))) {
+        document.querySelector(".header-logo").style.opacity = '0';
+      } else {
+        document.querySelector(".header-logo").style.opacity = '1';
+      }
+    }
+    catch {
+      document.querySelector(".header-logo").style.opacity = '1';
+    }
+  })
+
+</script>
+
+</html>

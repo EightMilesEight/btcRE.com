@@ -93,6 +93,7 @@
 
 <section class="s-portfolio">
     <div class="s-portfolio-content">
+        <h2>Portfolio</h2>
         <a class="portfolio-item animate-on-scroll" href="">
             <img class="animate-on-scroll" src="assets/placeholder.jpeg" alt="photo of 35-57 Medford Street, Boston, Massachusetts">
             <h4 class="animate-on-scroll">35-37 Medford Street</h4>
@@ -110,6 +111,29 @@
 
 <section class="s-bios">
     <div class="s-bios-content">
+        <a class="mini-bio" href="">
+            <div class="mini-bio-portrait">
+                <div class="mini-bio-portrait-overlay">
+                    <h5 class="mini-bio-portrait-overlay-text">See More</h5>
+                </div>
+            </div>
+            <h4>Brian Iammartino</h4>
+            <h5>Day-To-Day COO</h5>
+        </a>
+        <a class="mini-bio" href="">
+            <div class="mini-bio-portrait">
+                <div class="mini-bio-portrait-overlay">
+                    <h5 class="mini-bio-portrait-overlay-text">See More</h5>
+                </div>
+            </div>
+            <h4>Brian Iammartino</h4>
+            <h5>Day-To-Day COO</h5>
+        </a>
+    </div>
+</section>
+
+<section class="s-footer">
+    <div class="s-footer-content">
 
     </div>
 </section>
@@ -160,7 +184,18 @@
     Header
      */
     document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 0)';
-    document.querySelector(".header-logo").style.opacity = '0';
+
+    try {
+        if (isElementInViewport(document.querySelector(".hero-logo"))) {
+            document.querySelector(".header-logo").style.opacity = '0';
+        } else {
+            document.querySelector(".header-logo").style.opacity = '1';
+        }
+    }
+    catch {
+        document.querySelector(".header-logo").style.opacity = '1';
+    }
+
     window.addEventListener("scroll", function() {
         if(this.scrollY > 0) {
             document.querySelector(".header").style.backgroundColor = 'rgba(172, 0, 0, 1)';
@@ -171,13 +206,18 @@
             document.querySelector(".hamburger-menu ul").classList.remove('full-width');
         }
 
-        if(isElementInViewport(document.querySelector(".hero-logo"))) {
-            document.querySelector(".header-logo").style.opacity = '0';
+        try {
+            if (isElementInViewport(document.querySelector(".hero-logo"))) {
+                document.querySelector(".header-logo").style.opacity = '0';
+            } else {
+                document.querySelector(".header-logo").style.opacity = '1';
+            }
         }
-        else {
+        catch {
             document.querySelector(".header-logo").style.opacity = '1';
         }
     })
+
 </script>
 
 </html>

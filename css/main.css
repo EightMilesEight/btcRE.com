@@ -5,6 +5,7 @@ Table of Contents:
     General Page Styles
         Animations
     Header
+    Page Header
     Hero
         Logo
         Text
@@ -40,14 +41,53 @@ h1 {
 }
 
 h2 {
-     display: block;
-     margin: 0;
-     padding: 1rem;
-     font-size: 4rem;
-     font-weight: lighter;
-     text-decoration: none;
-     color: #222222;
- }
+    display: block;
+    margin: 0;
+    padding: 1rem;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #222222;
+}
+
+h4 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #222222;
+}
+
+h5 {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #222222;
+}
+
+p {
+    display: block;
+    margin: 0;
+    padding: 1rem;
+}
+
+.link-button {
+    display: block;
+    height: 5rem;
+    margin: 1rem;
+    padding: 0;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #ac0001;
+    transition: 0.3s ease-in-out;
+}
 
 /* Animations */
 @keyframes shadow-drop {
@@ -193,6 +233,48 @@ u {
 .hamburger-menu a {
     text-decoration: none;
     color: #ffffff;
+}
+
+/* Page Header */
+.s-page-header {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.s-page-header-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.s-page-header-content-35-37-medford-street {
+    background-image: url("../assets/placeholder.jpeg");
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/* Page Header Text */
+.page-header-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) {
+    .page-header-text {
+        font-size: 8rem;
+    }
 }
 
 /* Hero */
@@ -491,6 +573,15 @@ u {
     padding: 5rem 0;
 }
 
+.s-portfolio-content h2 {
+    margin: 3rem 0 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+    color: #222222;
+}
+
 .portfolio-item {
     display: block;
     width: calc(100% - 2rem);
@@ -512,16 +603,6 @@ u {
     transform: scale(1);
 }
 
-.portfolio-item > h4 {
-    display: block;
-    margin: 0;
-    padding: 0;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: #222222;
-}
-
 @media (min-width: 1000px) {
     .portfolio-item {
         width: calc(100% - 8rem);
@@ -533,11 +614,74 @@ u {
 .s-bios {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 5rem 0;
     background-color: #ffffff;
 }
 
 .s-bios-content {
+    display: flex;
+    height: 100%;
+    justify-items: center;
+}
+
+.mini-bio {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.mini-bio-portrait {
+    min-height: 50vh;
+    width: 70%;
+    aspect-ratio: 0.75;
+    margin: auto;
+    padding: 0;
+    background-image: url("../assets/placeholder.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-color: #ac0001;
+}
+
+.mini-bio-portrait-overlay {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.mini-bio-portrait-overlay:hover,
+.mini-bio-portrait-overlay:focus,
+.mini-bio-portrait-overlay:active {
+    background-color: rgba(127, 0, 0, 0.7);
+}
+
+.mini-bio-portrait-overlay-text {
+    display: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.mini-bio-portrait-overlay:hover .mini-bio-portrait-overlay-text,
+.mini-bio-portrait-overlay:focus .mini-bio-portrait-overlay-text,
+.mini-bio-portrait-overlay:active .mini-bio-portrait-overlay-text {
+    display: initial;
+}
+
+/* About About Us */
+.about-s-top {
+    width: 100%;
+    margin: 0;
+    padding: 5rem 0 0;
+    z-index: 0;
+    background-color: #ffffff;
+}
+
+.about-s-top-content {
     height: 100%;
     width: 100%;
     max-width: 1400px;
@@ -545,12 +689,91 @@ u {
     padding: 0;
 }
 
-/* Footer */
-#footer {
-    background-color: #ac0001;
+.about-s-top h2 {
+    padding-left: 5%;
     color: #222222;
 }
 
-#footer a {
-    color: #ffffff;
+.about-s-top p {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 0;
+    font-size: 2rem;
+}
+
+/* About Bios */
+.about-s-bios {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    background-color: #ffffff;
+}
+
+.about-s-bios-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+.full-bio {
+    margin: 1rem 5%;
+    padding: 0;
+}
+
+.full-bio-text {
+    display: inline-block;
+    height: 40rem;
+    width: 100%;
+    vertical-align: top;
+}
+
+.full-bio-text-icons {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #222222;
+}
+
+.full-bio-text-icons > i{
+    padding: 1rem;
+}
+
+.full-bio-portrait {
+    display: inline-block;
+    width: 100%;
+}
+
+.full-bio-portrait > img {
+    width: 100%;
+}
+
+@media (min-width: 1000px) {
+    .full-bio-text {
+        width: 49%;
+    }
+
+    .full-bio-portrait {
+        width: 50%;
+    }
+}
+
+/* Footer */
+.s-footer {
+    width: 100%;
+    margin: 0;
+    padding: 5rem 0;
+    background-color: #ac0001;
+}
+
+.s-footer-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
 }
