@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Added mini bios and started about page, messed a bit with header javascript">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Messing with bios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <workItem from="1671648093576" duration="16936000" />
       <workItem from="1671677793822" duration="24337000" />
       <workItem from="1671844949201" duration="1533000" />
-      <workItem from="1672078707154" duration="19891000" />
+      <workItem from="1672078707154" duration="21533000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -75,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672096035907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Messing with bios">
+      <created>1672102532550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672102532550</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added nav bar" />
     <MESSAGE value="Added mini bios and started about page, messed a bit with header javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added mini bios and started about page, messed a bit with header javascript" />
+    <MESSAGE value="Messing with bios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Messing with bios" />
   </component>
 </project>
