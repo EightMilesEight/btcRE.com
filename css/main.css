@@ -785,7 +785,7 @@ u {
 @media (min-width: 1000px) {
 
     .full-bio {
-        margin: 0;
+        margin: 5rem 0;
     }
 
     .full-bio-portrait {
