@@ -87,6 +87,7 @@ p {
     color: #ffffff;
     background-color: #ac0001;
     transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
 }
 
 /* Animations */
@@ -138,6 +139,7 @@ u {
     z-index: 1;
     background-color: #ac0001;
     transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
 }
 
 .header-content {
@@ -155,13 +157,16 @@ u {
     padding: 0 1rem;
     float: left;
     justify-items: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     font-size: 3rem;
     color: #ffffff;
 }
 
 .header-logo {
     transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
 }
 
 .header-logo > img {
@@ -182,12 +187,15 @@ u {
     padding: 1rem 1rem;
     float: right;
     justify-items: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     font-size: 1.5rem;
     text-decoration: none;
     color: #ffffff;
     background-color: #ac0001;
     transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
 }
 
 .hamburger-menu ul {
@@ -215,11 +223,14 @@ u {
     margin: 0;
     padding: 0;
     justify-items: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     font-size: 0;
     color: #ffffff;
     background-color: #ac0001;
     transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
 }
 
 .hamburger-menu:hover li,
@@ -407,6 +418,7 @@ u {
     padding: 0;
     color: #ac0001;
     transition: 2s ease-out;
+    -webkit-transition: 2s ease-out;
 }
 
 .about-text a span:hover,
@@ -524,12 +536,16 @@ u {
 /* Tenants List */
 .tenants-list {
     display: flex;
+    display: -webkit-flex;
     width: calc(100% - 1rem);
     margin: 0.5rem;
     padding: 0;
     justify-content: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .tenants-list a {
@@ -537,6 +553,7 @@ u {
     margin: 0.5rem;
     padding: 0;
     align-self: center;
+    -webkit-align-self: center;
 }
 
 .tenants-list a img {
@@ -546,6 +563,7 @@ u {
 @media (min-width: 1000px) {
     .tenants-list {
         display: flex;
+        display: -webkit-flex;
         width: calc(100% - 4rem);
         margin: 2rem;
         padding: 0;
@@ -597,6 +615,7 @@ u {
     border: 0;
     transform: scale(1.1);
     transition: 2s ease-out;
+    -webkit-transition: 2s ease-out;
 }
 
 .portfolio-item > img.is-visible {
@@ -620,8 +639,10 @@ u {
 
 .s-bios-content {
     display: flex;
+    display: -webkit-flex;
     height: 100%;
     justify-items: center;
+    -webkit-justify-content: center;
 }
 
 .mini-bio {
@@ -646,12 +667,16 @@ u {
 
 .mini-bio-portrait-overlay {
     display: flex;
+    display: -webkit-flex;
     height: 100%;
     width: 100%;
     justify-content: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     text-align: center;
     transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
 }
 
 .mini-bio-portrait-overlay:hover,
@@ -664,6 +689,7 @@ u {
     display: none;
     color: #ffffff;
     transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
 }
 
 .mini-bio-portrait-overlay:hover .mini-bio-portrait-overlay-text,
@@ -753,13 +779,28 @@ u {
 }
 
 @media (min-width: 1000px) {
+    .full-bio {
+        display: flex;
+        display: -webkit-flex;
+        width: 90%;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+
     .full-bio-text {
-        width: 49%;
+        width: 100%;
+        border: #ac0001 5px solid;
+        background-color: #ffffff;
     }
 
     .full-bio-portrait {
         width: 50%;
     }
+
+    .full-bio-portrait > img {
+        width: auto;
+    }
+
 }
 
 /* Footer */
