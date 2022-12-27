@@ -5,7 +5,6 @@ Table of Contents:
     General Page Styles
         Animations
     Header
-    Page Header
     Hero
         Logo
         Text
@@ -16,6 +15,7 @@ Table of Contents:
         Text
         List
     Portfolio
+    Top
     Bios
     Footer
 */
@@ -74,6 +74,10 @@ p {
     display: block;
     margin: 0;
     padding: 1rem;
+}
+
+a {
+    color: inherit;
 }
 
 .link-button {
@@ -244,48 +248,6 @@ u {
 .hamburger-menu a {
     text-decoration: none;
     color: #ffffff;
-}
-
-/* Page Header */
-.s-page-header {
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-.s-page-header-content {
-    height: 100%;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0;
-    padding: 0;
-    background-position: center;
-    background-size: cover;
-}
-
-.s-page-header-content-35-37-medford-street {
-    background-image: url("../assets/placeholder.jpeg");
-}
-
-@media (min-width: 1200px) {
-
-}
-
-/* Page Header Text */
-.page-header-text {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-@media (min-width: 1200px) {
-    .page-header-text {
-        font-size: 8rem;
-    }
 }
 
 /* Hero */
@@ -602,8 +564,8 @@ u {
 
 .portfolio-item {
     display: block;
-    width: calc(100% - 2rem);
-    margin: 4rem 1rem;
+    width: calc(100% - 10rem);
+    margin: 4rem 5rem;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
@@ -641,12 +603,14 @@ u {
     display: flex;
     display: -webkit-flex;
     height: 100%;
+    flex-direction: column;
+    -webkit-flex-direction: column;
     justify-items: center;
     -webkit-justify-content: center;
 }
 
 .mini-bio {
-    width: 50%;
+    width: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -698,8 +662,19 @@ u {
     display: initial;
 }
 
-/* About About Us */
-.about-s-top {
+@media (min-width: 1000px) {
+    .s-bios-content {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+    }
+
+    .mini-bio {
+        width: 50%;
+    }
+}
+
+/* Top */
+.s-top {
     width: 100%;
     margin: 0;
     padding: 5rem 0 0;
@@ -707,7 +682,7 @@ u {
     background-color: #ffffff;
 }
 
-.about-s-top-content {
+.s-top-content {
     height: 100%;
     width: 100%;
     max-width: 1400px;
@@ -715,12 +690,12 @@ u {
     padding: 0;
 }
 
-.about-s-top h2 {
+.s-top h2 {
     padding-left: 5%;
     color: #222222;
 }
 
-.about-s-top p {
+.s-top p {
     width: 90%;
     margin: 2rem auto;
     padding: 0;
@@ -744,7 +719,7 @@ u {
 }
 
 .full-bio {
-    margin: 1rem 5rem;
+    margin: 1rem;
     padding: 0;
 }
 
@@ -754,7 +729,6 @@ u {
 
 .full-bio-text {
     display: inline-block;
-    height: 40rem;
     width: 100%;
     vertical-align: top;
 }
@@ -766,6 +740,10 @@ u {
     text-align: center;
     font-size: 3rem;
     color: #222222;
+}
+
+.full-bio-text-icons > a{
+    color: inherit;
 }
 
 .full-bio-text-icons > i{
