@@ -239,8 +239,6 @@ u {
 }
 
 .hamburger-menu:hover li,
-.hamburger-menu:focus li,
-.hamburger-menu:active li,
 .hamburger-menu.open li{
     height: 2rem;
     padding: 1rem;
