@@ -225,7 +225,7 @@
             document.querySelector(".hamburger-menu").classList.remove('open');
             menuIsOpen = false;
         }
-        else {
+        else if (!menuIsOpen) {
             document.querySelector(".hamburger-menu").classList.add('open');
             menuIsOpen = true;
         }
