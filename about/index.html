@@ -178,13 +178,14 @@
     /* Toggle the hamburger menu on mobile */
     var menuIsOpen = false;
     function toggleMenu() {
-        if (menuIsOpen) {
-            document.querySelector(".hamburger-menu").classList.remove('open');
-            menuIsOpen = false;
-        }
-        else if (!menuIsOpen) {
-            document.querySelector(".hamburger-menu").classList.add('open');
-            menuIsOpen = true;
+        if (screen.width < 1200) {
+            if (menuIsOpen) {
+                document.querySelector(".hamburger-menu").classList.remove('open');
+                menuIsOpen = false;
+            } else if (!menuIsOpen) {
+                document.querySelector(".hamburger-menu").classList.add('open');
+                menuIsOpen = true;
+            }
         }
     }
 
