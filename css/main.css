@@ -37,7 +37,7 @@ h1 {
     padding: 0;
     font-size: 5rem;
     text-align: center;
-    color: #ffffff;
+    color: inherit;
 }
 
 h2 {
@@ -47,7 +47,7 @@ h2 {
     font-size: 4rem;
     font-weight: lighter;
     text-decoration: none;
-    color: #222222;
+    color: inherit;
 }
 
 h4 {
@@ -57,7 +57,7 @@ h4 {
     font-size: 2rem;
     font-weight: normal;
     text-decoration: none;
-    color: #222222;
+    color: inherit;
 }
 
 h5 {
@@ -67,13 +67,14 @@ h5 {
     font-size: 1.5rem;
     font-weight: lighter;
     text-decoration: none;
-    color: #222222;
+    color: inherit;
 }
 
 p {
     display: block;
     margin: 0;
     padding: 1rem;
+    color: inherit;
 }
 
 a {
@@ -783,6 +784,62 @@ u {
         background-color: #ffffff;
     }
 
+
+}
+
+/* Text and Image */
+.s-text-and-images {
+    width: 100%;
+    margin: 0;
+    padding: 5rem 0 0;
+    z-index: 0;
+    background-color: #ac0001;
+
+}
+
+.s-text-and-images-content {
+    height: 100%;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+}
+
+.text-and-image {
+    margin: 0 5%;
+    padding: 1rem 0;
+}
+
+.text-and-image-text {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.text-and-image-image {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.text-and-image-image > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 1000px) {
+    .text-and-image-text {
+        width: 49%;
+    }
+
+    .text-and-image-image {
+        width: 49%;
+    }
 
 }
 

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Still messing with the bios">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Finished portfolio (for now)">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <workItem from="1671648093576" duration="16936000" />
       <workItem from="1671677793822" duration="24337000" />
       <workItem from="1671844949201" duration="1533000" />
-      <workItem from="1672078707154" duration="38693000" />
+      <workItem from="1672078707154" duration="49487000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672116659215</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Still messing with the bios">
+      <created>1672183437724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672183437724</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
     <MESSAGE value="Messing with bios" />
     <MESSAGE value="Finally got the bios on the about page to look the way the client wants them (hopefully)" />
     <MESSAGE value="Still messing with the bios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still messing with the bios" />
+    <MESSAGE value="Finished portfolio (for now)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished portfolio (for now)" />
   </component>
 </project>
