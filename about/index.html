@@ -17,7 +17,7 @@
         <a class="header-item-social" href=""><i class="fab fa-linkedin"></i></a>
         <a class="header-logo" href="http://www.btcre.com/"><img src="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
         <nav class="hamburger-menu">
-            <i class=" fa-solid fa-bars"></i>
+            <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -174,6 +174,19 @@
             document.querySelector(".header-logo").style.opacity = '1';
         }
     })
+
+    /* Toggle the hamburger menu on mobile */
+    var menuIsOpen = false;
+    function toggleMenu() {
+        if (menuIsOpen) {
+            document.querySelector(".hamburger-menu").classList.remove('open');
+            menuIsOpen = false;
+        }
+        else {
+            document.querySelector(".hamburger-menu").classList.add('open');
+            menuIsOpen = true;
+        }
+    }
 
 </script>
 

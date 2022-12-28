@@ -217,7 +217,7 @@ u {
     margin-top: 3rem;
 }
 
-.hamburger-menu i {
+.hamburger-menu-toggle i {
     width: 100%;
     text-align: right;
 }
@@ -240,7 +240,8 @@ u {
 
 .hamburger-menu:hover li,
 .hamburger-menu:focus li,
-.hamburger-menu:active li {
+.hamburger-menu:active li,
+.hamburger-menu.open li{
     height: 2rem;
     padding: 1rem;
     font-size: 2rem;

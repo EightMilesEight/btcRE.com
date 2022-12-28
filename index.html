@@ -7,7 +7,7 @@
     <meta name="author" content="btcRE">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="shortcut icon" href="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" >
-    <link rel="stylesheet" href="https://eightmileseight.github.io/btcRE.com/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/4a185d27a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,9 +15,9 @@
 <header class="header">
     <div class="header-content">
         <a class="header-item-social" href=""><i class="fab fa-linkedin"></i></a>
-        <a class="header-logo" href="https://eightmileseight.github.io/btcRE.com/"><img src="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
+        <a class="header-logo" href="http://www.btcre.com/"><img src="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
         <nav class="hamburger-menu">
-            <i class=" fa-solid fa-bars"></i>
+            <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Portfolio</a></li>
@@ -217,6 +217,19 @@
             document.querySelector(".header-logo").style.opacity = '1';
         }
     })
+
+    /* Toggle the hamburger menu on mobile */
+    var menuIsOpen = false;
+    function toggleMenu() {
+        if (menuIsOpen) {
+            document.querySelector(".hamburger-menu").classList.remove('open');
+            menuIsOpen = false;
+        }
+        else {
+            document.querySelector(".hamburger-menu").classList.add('open');
+            menuIsOpen = true;
+        }
+    }
 
 </script>
 
