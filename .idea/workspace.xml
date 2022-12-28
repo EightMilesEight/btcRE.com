@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Made the hamburger menu work on mobile, now just rolling out the change.">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Fixed the centering issue on high-resolution screens, made the nav links actually work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
@@ -63,7 +63,7 @@
       <workItem from="1671844949201" duration="1533000" />
       <workItem from="1672078707154" duration="50245000" />
       <workItem from="1672202098971" duration="3210000" />
-      <workItem from="1672210961420" duration="5147000" />
+      <workItem from="1672210961420" duration="11198000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672249035295</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fixed the centering issue on high-resolution screens, made the nav links actually work">
+      <created>1672250270724</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672250270724</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="Hopefully made the hamburger menu work on mobile (Part 2, electric boogaloo)" />
     <MESSAGE value="Hopefully made the hamburger menu work on mobile (Part 3, whoopee)" />
     <MESSAGE value="Made the hamburger menu work on mobile, now just rolling out the change." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the hamburger menu work on mobile, now just rolling out the change." />
+    <MESSAGE value="Fixed the centering issue on high-resolution screens, made the nav links actually work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the centering issue on high-resolution screens, made the nav links actually work" />
   </component>
 </project>

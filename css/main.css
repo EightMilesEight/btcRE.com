@@ -79,6 +79,7 @@ p {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 .link-button {
@@ -855,7 +856,7 @@ u {
 .s-footer {
     width: 100%;
     margin: 0;
-    padding: 5rem 0;
+    padding: 2rem 0;
     background-color: #ac0001;
 }
 
@@ -865,4 +866,35 @@ u {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0;
+}
+
+.footer-list {
+    display: block;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.footer-list > li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    padding: 0.5rem;
+    list-style: none;
+}
+
+li:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: #222222;
+    transition: 0.5s ease-out;
+}
+
+.footer-list li:hover:after,
+.footer-list li:active:after,
+.footer-list li:focus:after {
+    width: 100%;
+    background-color: #222222;
 }
