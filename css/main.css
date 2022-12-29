@@ -26,6 +26,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: #4a4b4c;
 }
 
 body {
@@ -91,8 +92,8 @@ a {
     text-align: center;
     line-height: 5rem;
     font-size: 2rem;
-    color: #ffffff;
-    background-color: #ac0001;
+    color: #ccced0;
+    background-color: #844a40;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
 }
@@ -100,24 +101,24 @@ a {
 /* Animations */
 @keyframes shadow-drop {
     0% {
-        box-shadow: #ac0001 0 0;
+        box-shadow: #844a40 0 0;
     }
 
     100% {
-        box-shadow: #ac0001 1.5rem 1.5rem;
+        box-shadow: #844a40 1.5rem 1.5rem;
     }
 }
 
 mark {
-     color: #c9c9c9;
+     color: #ccced0;
 }
 
 mark.is-visible {
-    --color1: #ac0001;
-    --color2: #ac0001;
+    --color1: #844a40;
+    --color2: #844a40;
     --height: 100%;
     all: unset;
-    background-image: linear-gradient(#ac0001, var(--color2));
+    background-image: linear-gradient(#844a40, var(--color2));
     background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: 0 var(--height);
@@ -132,7 +133,7 @@ mark.is-visible {
 }
 
 u {
-    text-decoration-color: #ac0001;
+    text-decoration-color: #844a40;
     text-decoration-thickness: 0.5rem;
 }
 
@@ -143,7 +144,7 @@ u {
     height: 100vh;
     width: 100%;
     z-index: 100;
-    background-color: #ac0001;
+    background-color: #844a40;
     transition: 0.5s ease-out;
 }
 
@@ -155,7 +156,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 1;
-    background-color: #ac0001;
+    background-color: #844a40;
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
 }
@@ -179,7 +180,7 @@ u {
     align-items: center;
     -webkit-align-items: center;
     font-size: 3rem;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 .header-logo {
@@ -195,7 +196,7 @@ u {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    color: #ffffff;
+    color: #ccced0;
 }
 
 .hamburger-menu {
@@ -210,8 +211,8 @@ u {
     -webkit-align-items: center;
     font-size: 1.5rem;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #ac0001;
+    color: #ccced0;
+    background-color: #844a40;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
@@ -245,8 +246,8 @@ u {
     align-items: center;
     -webkit-align-items: center;
     font-size: 0;
-    color: #ffffff;
-    background-color: #ac0001;
+    color: #ccced0;
+    background-color: #844a40;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
@@ -259,7 +260,7 @@ u {
 
 .hamburger-menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 @media (min-width: 1200px) {
@@ -278,7 +279,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-hero-content {
@@ -299,7 +300,7 @@ u {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: #ccced0;
 }
 
 .hero-logo {
@@ -311,7 +312,7 @@ u {
     left: 50%;
     transform: translate(-50%);
     text-align: center;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 @media (min-width: 1200px) {
@@ -330,7 +331,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-about-content {
@@ -368,7 +369,7 @@ u {
     max-width: 100%;
     margin: 0;
     padding: 0;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 .about-text h2 {
@@ -389,14 +390,14 @@ u {
 .about-text a {
     margin: 0;
     padding: 1rem;
-    color: #ac0001;
+    color: #844a40;
     text-decoration: none;
 }
 
 .about-text span {
     margin: 0;
     padding: 0;
-    color: #ac0001;
+    color: #844a40;
     transition: 2s ease-out;
     -webkit-transition: 2s ease-out;
 }
@@ -419,8 +420,8 @@ u {
     background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
     background-size: cover;
     background-position: center;
-    background-color: #ac0001;
-    box-shadow: #ac0001 1.5rem 1.5rem;
+    background-color: #844a40;
+    box-shadow: #844a40 1.5rem 1.5rem;
 }
 
 .about-images.is-visible {
@@ -469,7 +470,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-tenants-content {
@@ -494,7 +495,7 @@ u {
     padding: 1rem;
     font-size: 4rem;
     font-weight: lighter;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 .tenants-text p {
@@ -503,7 +504,7 @@ u {
     padding: 1rem;
     font-size: 1rem;
     font-weight: lighter;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 @media (min-width: 1200px) {
@@ -560,7 +561,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-portfolio-content {
@@ -577,7 +578,7 @@ u {
     font-size: 4rem;
     font-weight: lighter;
     text-align: center;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 .portfolio-item {
@@ -586,7 +587,7 @@ u {
     margin: 4rem 5rem;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #ccced0;
     text-decoration: none;
 }
 
@@ -614,7 +615,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 5rem 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-bios-content {
@@ -648,7 +649,7 @@ u {
     background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
-    background-color: #ac0001;
+    background-color: #844a40;
 }
 
 .mini-bio-portrait-overlay {
@@ -668,12 +669,12 @@ u {
 .mini-bio-portrait-overlay:hover,
 .mini-bio-portrait-overlay:focus,
 .mini-bio-portrait-overlay:active {
-    background-color: rgba(127, 0, 0, 0.7);
+    background-color: rgba(132, 74, 64, 0.7);
 }
 
 .mini-bio-portrait-overlay-text {
     display: none;
-    color: #ffffff;
+    color: #ccced0;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
 }
@@ -701,7 +702,7 @@ u {
     margin: 0;
     padding: 5rem 0 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-top-content {
@@ -714,7 +715,7 @@ u {
 
 .s-top h2 {
     padding-left: 5%;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 .s-top p {
@@ -729,7 +730,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .about-s-bios-content {
@@ -761,7 +762,7 @@ u {
     padding: 0;
     text-align: center;
     font-size: 3rem;
-    color: #222222;
+    color: #4a4b4c;
 }
 
 .full-bio-text-icons > a{
@@ -800,9 +801,9 @@ u {
         max-height: 100vh;
         width: 60%;
         margin-top: 12vh;
-        border: #ac0001 5px solid;
+        border: #844a40 5px solid;
         transform: translatex(-22%);
-        background-color: #ffffff;
+        background-color: #ccced0;
     }
 
 
@@ -814,7 +815,7 @@ u {
     margin: 0;
     padding: 5rem 0 0;
     z-index: 0;
-    background-color: #ac0001;
+    background-color: #844a40;
 
 }
 
@@ -838,7 +839,7 @@ u {
     padding: 0;
     vertical-align: top;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 .text-and-image-image {
@@ -869,7 +870,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 2rem 0 0;
-    background-color: #ac0001;
+    background-color: #844a40;
 }
 
 .s-footer-content {
@@ -900,7 +901,7 @@ u {
     display: block;
     height: 3px;
     width: 0;
-    background-color: #222222;
+    background-color: #4a4b4c;
     transition: 0.5s ease-out;
 }
 
@@ -908,7 +909,7 @@ u {
 .footer-list li:active:after,
 .footer-list li:focus:after {
     width: 100%;
-    background-color: #222222;
+    background-color: #4a4b4c;
 }
 
 .footer-copyright {
