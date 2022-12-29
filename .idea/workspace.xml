@@ -65,7 +65,7 @@
       <workItem from="1672078707154" duration="50245000" />
       <workItem from="1672202098971" duration="3210000" />
       <workItem from="1672210961420" duration="18960000" />
-      <workItem from="1672274740527" duration="2947000" />
+      <workItem from="1672274740527" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -221,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672275187898</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added preloader">
+      <created>1672357234032</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672357234032</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -287,7 +287,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
+    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -417,7 +417,7 @@ u {
     margin: 1rem 2.5rem 1rem 1rem;
     padding: 0;
     aspect-ratio: 3/2;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
+    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
     background-size: cover;
     background-position: center;
     background-color: #844a40;
@@ -646,7 +646,7 @@ u {
     aspect-ratio: 0.75;
     margin: auto;
     padding: 0;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
+    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
     background-color: #844a40;
