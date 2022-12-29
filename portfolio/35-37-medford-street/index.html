@@ -10,7 +10,11 @@
   <link rel="stylesheet" href="https://eightmileseight.github.io/btcRE.com/css/main.css">
   <script src="https://kit.fontawesome.com/4a185d27a6.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="hidePreloader()">
+
+<div class="preloader">
+
+</div>
 
 <header class="header">
   <div class="header-content">
@@ -213,6 +217,14 @@
         menuIsOpen = true;
       }
     }
+  }
+
+  /* Preloader */
+  document.querySelector(".preloader").style.display = "block";
+  function hidePreloader() {
+    setTimeout(function() {
+      document.querySelector(".preloader").style.height = "0";
+    }, 1000)
   }
 
 </script>
