@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Housekeeping, finalizing some things, added footer copyright">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Added preloader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/btcRE.com-compressed.zip" beforeDir="false" afterPath="$PROJECT_DIR$/btcRE.com-compressed.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
@@ -62,7 +62,7 @@
       <workItem from="1671844949201" duration="1533000" />
       <workItem from="1672078707154" duration="50245000" />
       <workItem from="1672202098971" duration="3210000" />
-      <workItem from="1672210961420" duration="18631000" />
+      <workItem from="1672210961420" duration="18960000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672267917139</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added preloader">
+      <created>1672274038400</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672274038400</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +235,7 @@
     <MESSAGE value="Fixed the centering issue on high-resolution screens, made the nav links actually work" />
     <MESSAGE value="Added footer" />
     <MESSAGE value="Housekeeping, finalizing some things, added footer copyright" />
-    <option name="LAST_COMMIT_MESSAGE" value="Housekeeping, finalizing some things, added footer copyright" />
+    <MESSAGE value="Added preloader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added preloader" />
   </component>
 </project>
