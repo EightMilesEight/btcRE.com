@@ -92,7 +92,7 @@ a {
     text-align: center;
     line-height: 5rem;
     font-size: 2rem;
-    color: #ccced0;
+    color: #ffffff;
     background-color: #844a40;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
@@ -110,7 +110,7 @@ a {
 }
 
 mark {
-     color: #ccced0;
+     color: #ffffff;
 }
 
 mark.is-visible {
@@ -180,7 +180,7 @@ u {
     align-items: center;
     -webkit-align-items: center;
     font-size: 3rem;
-    color: #ccced0;
+    color: #ffffff;
 }
 
 .header-logo {
@@ -196,7 +196,7 @@ u {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    color: #ccced0;
+    color: #ffffff;
 }
 
 .hamburger-menu {
@@ -211,7 +211,7 @@ u {
     -webkit-align-items: center;
     font-size: 1.5rem;
     text-decoration: none;
-    color: #ccced0;
+    color: #ffffff;
     background-color: #844a40;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
@@ -246,7 +246,7 @@ u {
     align-items: center;
     -webkit-align-items: center;
     font-size: 0;
-    color: #ccced0;
+    color: #ffffff;
     background-color: #844a40;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
@@ -260,7 +260,7 @@ u {
 
 .hamburger-menu a {
     text-decoration: none;
-    color: #ccced0;
+    color: #ffffff;
 }
 
 @media (min-width: 1200px) {
@@ -279,7 +279,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-hero-content {
@@ -287,7 +287,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
+    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -300,7 +300,7 @@ u {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ccced0;
+    color: #ffffff;
 }
 
 .hero-logo {
@@ -312,7 +312,7 @@ u {
     left: 50%;
     transform: translate(-50%);
     text-align: center;
-    color: #ccced0;
+    color: #ffffff;
 }
 
 @media (min-width: 1200px) {
@@ -331,7 +331,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-about-content {
@@ -417,7 +417,7 @@ u {
     margin: 1rem 2.5rem 1rem 1rem;
     padding: 0;
     aspect-ratio: 3/2;
-    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
+    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
     background-size: cover;
     background-position: center;
     background-color: #844a40;
@@ -470,7 +470,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-tenants-content {
@@ -561,7 +561,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-portfolio-content {
@@ -587,7 +587,7 @@ u {
     margin: 4rem 5rem;
     padding: 0;
     overflow: hidden;
-    background-color: #ccced0;
+    background-color: #ffffff;
     text-decoration: none;
 }
 
@@ -615,7 +615,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 5rem 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-bios-content {
@@ -646,7 +646,7 @@ u {
     aspect-ratio: 0.75;
     margin: auto;
     padding: 0;
-    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
+    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
     background-color: #844a40;
@@ -674,7 +674,7 @@ u {
 
 .mini-bio-portrait-overlay-text {
     display: none;
-    color: #ccced0;
+    color: #ffffff;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
 }
@@ -702,7 +702,7 @@ u {
     margin: 0;
     padding: 5rem 0 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-top-content {
@@ -730,7 +730,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .about-s-bios-content {
@@ -803,7 +803,7 @@ u {
         margin-top: 12vh;
         border: #844a40 5px solid;
         transform: translatex(-22%);
-        background-color: #ccced0;
+        background-color: #ffffff;
     }
 
 
@@ -839,7 +839,7 @@ u {
     padding: 0;
     vertical-align: top;
     font-size: 1.5rem;
-    color: #ccced0;
+    color: #ffffff;
 }
 
 .text-and-image-image {
