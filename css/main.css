@@ -22,10 +22,18 @@ Table of Contents:
 */
 
 /* General Page Styles */
+@font-face {
+    font-family: 'helvetica';
+    src: url('http://test.btcre.com/css/fonts/helvetica.eot');
+    src: url('http://test.btcre.com/css/fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+    url('http://test.btcre.com/css/fonts/helvetica.woff') format('woff'),
+    url('http://test.btcre.com/css/fonts/helvetica.ttf') format('truetype');
+}
+
 html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "helvetica", arial, sans-serif;
     color: #4a4b4c;
 }
 
@@ -92,7 +100,7 @@ a {
     text-align: center;
     line-height: 5rem;
     font-size: 2rem;
-    color: #ffffff;
+    color: #ccced0;
     background-color: #844a40;
     transition: 0.3s ease-in-out;
     -webkit-transition: 0.3s ease-in-out;
@@ -110,7 +118,7 @@ a {
 }
 
 mark {
-     color: #ffffff;
+    background-color: #844a40;
 }
 
 mark.is-visible {
@@ -137,6 +145,23 @@ u {
     text-decoration-thickness: 0.5rem;
 }
 
+
+.hover-underline:after {
+     content: '';
+     display: block;
+     height: 3px;
+     width: 0;
+     background-color: #4a4b4c;
+     transition: 0.5s ease-out;
+ }
+
+.hover-underline:hover:after,
+.hover-underline:active:after,
+.hover-underline:focus:after {
+    width: 100%;
+    background-color: #4a4b4c;
+}
+
 /* Preloader */
 .preloader {
     display: none;
@@ -156,7 +181,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 1;
-    background-color: #844a40;
+    background-color: #ffffff;
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
 }
@@ -165,22 +190,8 @@ u {
     height: 100%;
     width: auto;
     max-width: 1400px;
-    margin: 0;
+    margin: auto;
     padding: 0;
-}
-
-.header-item-social {
-    display: inline-block;
-    height: 100%;
-    margin: 0;
-    padding: 0 1rem;
-    float: left;
-    justify-items: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
-    font-size: 3rem;
-    color: #ffffff;
 }
 
 .header-logo {
@@ -189,30 +200,27 @@ u {
 }
 
 .header-logo > img {
-    position: absolute;
     height: 3.5rem;
     margin: 0;
-    padding: 0;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%);
-    color: #ffffff;
+    padding: 1rem;
+    float: left;
+    color: #ccced0;
 }
 
 .hamburger-menu {
     display: inline-block;
     height: 100%;
     margin: 0;
-    padding: 1rem 1rem;
+    padding: 1rem;
     float: right;
     justify-items: center;
     -webkit-justify-content: center;
     align-items: center;
     -webkit-align-items: center;
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     text-decoration: none;
-    color: #ffffff;
-    background-color: #844a40;
+    color: #ccced0;
+    background-color: #ffffff;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
@@ -234,6 +242,7 @@ u {
 .hamburger-menu-toggle i {
     width: 100%;
     text-align: right;
+    color: #844a40;
 }
 
 .hamburger-menu li {
@@ -246,7 +255,7 @@ u {
     align-items: center;
     -webkit-align-items: center;
     font-size: 0;
-    color: #ffffff;
+    color: #ccced0;
     background-color: #844a40;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
@@ -260,7 +269,7 @@ u {
 
 .hamburger-menu a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 @media (min-width: 1200px) {
@@ -279,15 +288,15 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-hero-content {
-    height: 90%;
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
+    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -303,25 +312,9 @@ u {
     color: #ffffff;
 }
 
-.hero-logo {
-    position: absolute;
-    max-height: 20%;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    color: #ffffff;
-}
-
 @media (min-width: 1200px) {
     .hero-text {
-        font-size: 8rem;
-    }
-
-    .hero-logo {
-        width: 20%;
+        font-size: 6rem;
     }
 }
 
@@ -331,7 +324,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-about-content {
@@ -417,7 +410,7 @@ u {
     margin: 1rem 2.5rem 1rem 1rem;
     padding: 0;
     aspect-ratio: 3/2;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
+    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
     background-size: cover;
     background-position: center;
     background-color: #844a40;
@@ -470,7 +463,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-tenants-content {
@@ -561,7 +554,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-portfolio-content {
@@ -587,7 +580,7 @@ u {
     margin: 4rem 5rem;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #ccced0;
     text-decoration: none;
 }
 
@@ -610,99 +603,13 @@ u {
     }
 }
 
-/* Bios */
-.s-bios {
-    width: 100%;
-    margin: 0;
-    padding: 5rem 0;
-    background-color: #ffffff;
-}
-
-.s-bios-content {
-    display: flex;
-    display: -webkit-flex;
-    height: 100%;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    justify-items: center;
-    -webkit-justify-content: center;
-}
-
-.mini-bio {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
-}
-
-.mini-bio-portrait {
-    min-height: 50vh;
-    width: 70%;
-    aspect-ratio: 0.75;
-    margin: auto;
-    padding: 0;
-    background-image: url("https://eightmileseight.github.io/btcRE.com/assets/placeholder.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-color: #844a40;
-}
-
-.mini-bio-portrait-overlay {
-    display: flex;
-    display: -webkit-flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
-    text-align: center;
-    transition: 0.5s ease-in-out;
-    -webkit-transition: 0.5s ease-in-out;
-}
-
-.mini-bio-portrait-overlay:hover,
-.mini-bio-portrait-overlay:focus,
-.mini-bio-portrait-overlay:active {
-    background-color: rgba(132, 74, 64, 0.7);
-}
-
-.mini-bio-portrait-overlay-text {
-    display: none;
-    color: #ffffff;
-    transition: 0.3s ease-in-out;
-    -webkit-transition: 0.3s ease-in-out;
-}
-
-.mini-bio-portrait-overlay:hover .mini-bio-portrait-overlay-text,
-.mini-bio-portrait-overlay:focus .mini-bio-portrait-overlay-text,
-.mini-bio-portrait-overlay:active .mini-bio-portrait-overlay-text {
-    display: initial;
-}
-
-@media (min-width: 1200px) {
-    .s-bios-content {
-        flex-direction: row;
-        -webkit-flex-direction: row;
-    }
-
-    .mini-bio {
-        width: 50%;
-    }
-}
-
 /* Top */
 .s-top {
     width: 100%;
     margin: 0;
     padding: 5rem 0 0;
     z-index: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .s-top-content {
@@ -730,7 +637,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ccced0;
 }
 
 .about-s-bios-content {
@@ -803,7 +710,7 @@ u {
         margin-top: 12vh;
         border: #844a40 5px solid;
         transform: translatex(-22%);
-        background-color: #ffffff;
+        background-color: #ccced0;
     }
 
 
@@ -839,7 +746,7 @@ u {
     padding: 0;
     vertical-align: top;
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #ccced0;
 }
 
 .text-and-image-image {
@@ -870,7 +777,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 2rem 0 0;
-    background-color: #844a40;
+    background-color: #ffffff;
 }
 
 .s-footer-content {
@@ -894,22 +801,6 @@ u {
     margin: 0.5rem;
     padding: 0.5rem;
     list-style: none;
-}
-
-.footer-list > li:after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 0;
-    background-color: #4a4b4c;
-    transition: 0.5s ease-out;
-}
-
-.footer-list li:hover:after,
-.footer-list li:active:after,
-.footer-list li:focus:after {
-    width: 100%;
-    background-color: #4a4b4c;
 }
 
 .footer-copyright {

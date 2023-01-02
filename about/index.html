@@ -6,8 +6,8 @@
     <meta name="description" content="Boutique commercial real estate investment and consulting">
     <meta name="author" content="btcRE">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" >
-    <link rel="stylesheet" href="https://eightmileseight.github.io/btcRE.com/css/main.css">
+    <link rel="shortcut icon" href="http://test.btcre.com/assets/btcre-logo.gif" >
+    <link rel="stylesheet" href="http://test.btcre.com/css/main.css">
     <script src="https://kit.fontawesome.com/4a185d27a6.js" crossorigin="anonymous"></script>
 </head>
 <body onload="hidePreloader()">
@@ -18,14 +18,13 @@
 
 <header class="header">
     <div class="header-content">
-        <a class="header-item-social" href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
-        <a class="header-logo" href="https://eightmileseight.github.io/btcRE.com/"><img src="https://eightmileseight.github.io/btcRE.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
+        <a class="header-logo" href="http://test.btcre.com/"><img src="http://test.btcre.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
         <nav class="hamburger-menu">
             <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
-                <li><a href="https://eightmileseight.github.io/btcRE.com/about">About</a></li>
+                <li><a href="http://test.btcre.com/about">About</a></li>
                 <li><a>Portfolio <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="https://eightmileseight.github.io/btcRE.com/portfolio/35-37-medford-street">35-37 Medford Street</a></li>
+                <li><a href="http://test.btcre.com/portfolio/35-37-medford-street">35-37 Medford Street</a></li>
             </ul>
         </nav>
     </div>
@@ -48,7 +47,7 @@
     <div class="about-s-bios-content">
         <div class="full-bio">
             <div class="full-bio-portrait">
-                <img src="https://eightmileseight.github.io/btcRE.com/assets/placeholder-portrait.jpg" alt="Brian Iammartino btcRE">
+                <img src="http://test.btcre.com/assets/placeholder-portrait.jpg" alt="Brian Iammartino btcRE">
             </div>
             <div class="full-bio-text" id="brian-iammartino">
                 <h2>Brian Iammartino</h2>
@@ -71,7 +70,7 @@
 
         <div class="full-bio">
             <div class="full-bio-portrait">
-                <img src="https://eightmileseight.github.io/btcRE.com/assets/placeholder-portrait.jpg" alt="Brian Iammartino btcRE">
+                <img src="http://test.btcre.com/assets/placeholder-portrait.jpg" alt="Brian Iammartino btcRE">
             </div>
             <div class="full-bio-text" id="ryan-gorman">
                 <h2>Ryan Gorman</h2>
@@ -96,23 +95,29 @@
 
 <footer class="s-footer">
     <div class="s-footer-content">
+        <!--
+        <ul class="footer-list">
+          <li>
+            <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="mailto:brian@btcRE.com"><i class="fas fa-envelope"></i></a>
+          </li>
+        </ul>
+        -->
         <ul class="footer-list">
             <li>
-                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="hover-underline" href="http://test.btcre.com/about">About</a>
             </li>
             <li>
-                <a href="mailto:brian@btcRE.com"><i class="fas fa-envelope"></i></a>
+                <a class="hover-underline" href="http://test.btcre.com/portfolio/35-37-medford-street">35-37 Medford
+                    Street</a>
             </li>
         </ul>
-        <ul class="footer-list">
-            <li>
-                <a href="https://eightmileseight.github.io/btcRE.com/about">About</a>
-            </li>
-            <li>
-                <a href="https://eightmileseight.github.io/btcRE.com/portfolio/35-37-medford-street">35-37 Medford Street</a>
-            </li>
-        </ul>
-        <p class="footer-copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script><noscript>2022</noscript> btcRE | Site by <a href="https://eightmileseight.github.io/">8Miles8</a>
+        <p class="footer-copyright">Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script>
+        <noscript>2022</noscript>
+        btcRE | Site by <a href="https://eightmileseight.github.io/">8Miles8</a>
     </div>
 </footer>
 
@@ -157,44 +162,6 @@
                 rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
         );
     }
-
-    /*
-    Header
-     */
-    document.querySelector(".header").style.backgroundColor = 'rgba(132, 74, 64, 0)';
-
-    try {
-        if (isElementInViewport(document.querySelector(".hero-logo"))) {
-            document.querySelector(".header-logo").style.opacity = '0';
-        } else {
-            document.querySelector(".header-logo").style.opacity = '1';
-        }
-    }
-    catch {
-        document.querySelector(".header-logo").style.opacity = '1';
-    }
-
-    window.addEventListener("scroll", function() {
-        if(this.scrollY > 0) {
-            document.querySelector(".header").style.backgroundColor = 'rgba(132, 74, 64, 1)';
-            document.querySelector(".hamburger-menu ul").classList.add('full-width');
-        }
-        else {
-            document.querySelector(".header").style.backgroundColor = 'rgba(132, 74, 64, 0)';
-            document.querySelector(".hamburger-menu ul").classList.remove('full-width');
-        }
-
-        try {
-            if (isElementInViewport(document.querySelector(".hero-logo"))) {
-                document.querySelector(".header-logo").style.opacity = '0';
-            } else {
-                document.querySelector(".header-logo").style.opacity = '1';
-            }
-        }
-        catch {
-            document.querySelector(".header-logo").style.opacity = '1';
-        }
-    })
 
     /* Toggle the hamburger menu on mobile */
     var menuIsOpen = false;
