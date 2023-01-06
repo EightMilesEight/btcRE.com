@@ -9,13 +9,13 @@ Table of Contents:
     Hero
         Logo
         Text
-    About
+    Our Team
         Header
         Text
     Tenants
         Text
         List
-    Portfolio
+    Our Work
     Top
     Bios
     Footer
@@ -23,17 +23,19 @@ Table of Contents:
 
 /* General Page Styles */
 @font-face {
-    font-family: 'helvetica';
-    src: url('http://test.btcre.com/css/fonts/helvetica.eot');
-    src: url('http://test.btcre.com/css/fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+    font-family:'Helvetica';
+    src:url('http://test.btcre.com/css/fonts/helvetica.eot');
+    src:url('http://test.btcre.com/css/fonts/helvetica.eot?#iefix') format('embedded-opentype'),
     url('http://test.btcre.com/css/fonts/helvetica.woff') format('woff'),
     url('http://test.btcre.com/css/fonts/helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
     margin: 0;
     padding: 0;
-    font-family: "helvetica", arial, sans-serif;
+    font-family: "Helvetica", arial, sans-serif;
     color: #4a4b4c;
 }
 
@@ -147,13 +149,13 @@ u {
 
 
 .hover-underline:after {
-     content: '';
-     display: block;
-     height: 3px;
-     width: 0;
-     background-color: #4a4b4c;
-     transition: 0.5s ease-out;
- }
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background-color: #4a4b4c;
+    transition: 0.5s ease-out;
+}
 
 .hover-underline:hover:after,
 .hover-underline:active:after,
@@ -195,14 +197,22 @@ u {
 }
 
 .header-logo {
+    height: 100%;
+    margin: 0 1rem;
+    padding: 0;
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
 }
 
 .header-logo > img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     height: 3.5rem;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
+    display: inline-block;
+    vertical-align: center;
     float: left;
     color: #ccced0;
 }
@@ -213,30 +223,22 @@ u {
     margin: 0;
     padding: 1rem;
     float: right;
-    justify-items: center;
-    -webkit-justify-content: center;
-    align-items: center;
-    -webkit-align-items: center;
     font-size: 3.5rem;
     text-decoration: none;
-    color: #ccced0;
+    color: #844a40;
     background-color: #ffffff;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
 
 .hamburger-menu ul {
+    position: absolute;
     width: 100%;
-    margin: 0;
+    margin: 5rem 0 0;
     padding: 0;
     top: 0;
     left: 0;
     text-align: center;
-}
-
-.hamburger-menu ul.full-width {
-    position: absolute;
-    margin-top: 3rem;
 }
 
 .hamburger-menu-toggle i {
@@ -256,7 +258,7 @@ u {
     -webkit-align-items: center;
     font-size: 0;
     color: #ccced0;
-    background-color: #844a40;
+    background-color: #ffffff;
     transition: 0.5s ease-in-out;
     -webkit-transition: 0.5s ease-in-out;
 }
@@ -269,7 +271,7 @@ u {
 
 .hamburger-menu a {
     text-decoration: none;
-    color: #ccced0;
+    color: #844a40;
 }
 
 @media (min-width: 1200px) {
@@ -288,7 +290,7 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-hero-content {
@@ -318,16 +320,16 @@ u {
     }
 }
 
-/* About */
-.s-about {
+/* Our Team */
+.s-our-team {
     width: 100%;
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
-.s-about-content {
+.s-our-team-content {
     height: 100%;
     width: 100%;
     max-width: 1400px;
@@ -335,14 +337,14 @@ u {
     padding: 0;
 }
 
-/* About Header */
-.about-header {
+/* Our Team Header */
+.our-team-header {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.about-header p {
+.our-team-header p {
     max-width: 100%;
     margin: 0;
     padding: 1rem;
@@ -351,13 +353,13 @@ u {
 }
 
 @media (min-width: 1200px) {
-    .about-header p{
+    .our-team-header p {
         font-size: 2rem;
     }
 }
 
-/* About Text */
-.about-text {
+/* Our Team Text */
+.our-team-text {
     height: 100%;
     max-width: 100%;
     margin: 0;
@@ -365,7 +367,7 @@ u {
     color: #4a4b4c;
 }
 
-.about-text h2 {
+.our-team-text h2 {
     display: inline-block;
     max-width: 100%;
     margin: 0;
@@ -374,20 +376,20 @@ u {
     font-weight: normal;
 }
 
-.about-text p {
+.our-team-text p {
     max-width: 100%;
     margin: 0;
     padding: 1rem;
 }
 
-.about-text a {
+.our-team-text a {
     margin: 0;
     padding: 1rem;
     color: #844a40;
     text-decoration: none;
 }
 
-.about-text span {
+.our-team-text span {
     margin: 0;
     padding: 0;
     color: #844a40;
@@ -395,17 +397,17 @@ u {
     -webkit-transition: 2s ease-out;
 }
 
-.about-text a span:hover,
-.about-text a span:focus,
-.about-text a span:active {
+.our-team-text a span:hover,
+.our-team-text a span:focus,
+.our-team-text a span:active {
     margin-right: 3rem;
 }
 
-.about-text span.is-visible {
+.our-team-text span.is-visible {
     font-size: 3rem;
 }
 
-.about-images {
+.our-team-images {
     max-width: 100%;
     margin: 1rem 2.5rem 1rem 1rem;
     padding: 0;
@@ -417,43 +419,43 @@ u {
     box-shadow: #844a40 1.5rem 1.5rem;
 }
 
-.about-images.is-visible {
+.our-team-images.is-visible {
     animation: shadow-drop ease-out 2s;
 }
 
 @media (min-width: 1200px) {
-    .about-text {
+    .our-team-text {
         width: 40%;
-        margin: 5%;
+        margin: 5rem;
         padding: 0;
         float: left;
     }
 
-    .about-text h2 {
+    .our-team-text h2 {
         margin: 1rem;
         padding: 0;
         font-size: 3rem;
     }
 
-    .about-text p {
+    .our-team-text p {
         margin: 1rem;
         padding: 0;
     }
 
-    .about-text a {
+    .our-team-text a {
         margin: 1rem;
         padding: 0;
     }
 
-    .about-text span.is-visible {
+    .our-team-text span.is-visible {
         font-size: 3.5rem;
     }
 
-    .about-images {
+    .our-team-images {
         display: inline-block;
         height: 25rem;
         width: 40%;
-        margin: 5% auto;
+        margin: 5rem auto;
     }
 }
 
@@ -463,7 +465,7 @@ u {
     margin: 0;
     padding: 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-tenants-content {
@@ -549,15 +551,15 @@ u {
     }
 }
 
-/* Portfolio */
-.s-portfolio {
+/* Our Work */
+.s-our-work {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
-.s-portfolio-content {
+.s-our-work-content {
     height: 100%;
     width: 100%;
     max-width: 1400px;
@@ -565,7 +567,7 @@ u {
     padding: 5rem 0;
 }
 
-.s-portfolio-content h2 {
+.s-our-work-content h2 {
     margin: 3rem 0 0;
     padding: 0;
     font-size: 4rem;
@@ -574,17 +576,17 @@ u {
     color: #4a4b4c;
 }
 
-.portfolio-item {
+.our-work-item {
     display: block;
     width: calc(100% - 10rem);
     margin: 4rem 5rem;
     padding: 0;
     overflow: hidden;
-    background-color: #ccced0;
+    background-color: #ffffff;
     text-decoration: none;
 }
 
-.portfolio-item > img {
+.our-work-item > img {
     width: 100%;
     border: 0;
     transform: scale(1.1);
@@ -592,12 +594,12 @@ u {
     -webkit-transition: 2s ease-out;
 }
 
-.portfolio-item > img.is-visible {
+.our-work-item.is-visible > img {
     transform: scale(1);
 }
 
 @media (min-width: 1200px) {
-    .portfolio-item {
+    .our-work-item {
         width: calc(100% - 8rem);
         margin: 4rem;
     }
@@ -607,9 +609,9 @@ u {
 .s-top {
     width: 100%;
     margin: 0;
-    padding: 5rem 0 0;
+    padding: 10rem 0 0;
     z-index: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
 .s-top-content {
@@ -621,8 +623,15 @@ u {
 }
 
 .s-top h2 {
-    padding-left: 5%;
+    padding-left: 4rem;
     color: #4a4b4c;
+}
+
+.s-top h2:before {
+    position: absolute;
+    border-top: 5px solid #844a40;
+    content: "";
+    width: 7rem;
 }
 
 .s-top p {
@@ -632,15 +641,15 @@ u {
     font-size: 2rem;
 }
 
-/* About Bios */
-.about-s-bios {
+/* Our Team Bios */
+.our-team-s-bios {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #ccced0;
+    background-color: #ffffff;
 }
 
-.about-s-bios-content {
+.our-team-s-bios-content {
     height: 100%;
     width: 100%;
     max-width: 1400px;
@@ -672,11 +681,11 @@ u {
     color: #4a4b4c;
 }
 
-.full-bio-text-icons > a{
+.full-bio-text-icons > a {
     color: inherit;
 }
 
-.full-bio-text-icons > i{
+.full-bio-text-icons > i {
     padding: 1rem;
 }
 
@@ -710,7 +719,7 @@ u {
         margin-top: 12vh;
         border: #844a40 5px solid;
         transform: translatex(-22%);
-        background-color: #ccced0;
+        background-color: #ffffff;
     }
 
 
@@ -776,7 +785,7 @@ u {
 .s-footer {
     width: 100%;
     margin: 0;
-    padding: 2rem 0 0;
+    padding: 2rem 0;
     background-color: #ffffff;
 }
 

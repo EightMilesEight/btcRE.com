@@ -4,16 +4,22 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated font, header, hero text sizing, footer, color scheme, and some other cosmetic things.">
-      <change afterPath="$PROJECT_DIR$/css/fonts/helvetica.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/helvetica.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/fonts/helvetica.woff" afterDir="false" />
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Trying to get the font to stop breaking">
+      <change afterPath="$PROJECT_DIR$/btcre.com.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btcRE.com-compressed.zip" beforeDir="false" afterPath="$PROJECT_DIR$/btcRE.com-compressed.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-bricks-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-bricks-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-bricks-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-bricks-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-tagline-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-tagline-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-tagline-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-tagline-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-vertical-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-vertical-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/logos/logo-vertical-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-vertical-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcRE.com-compressed.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/35-37-medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,7 +86,13 @@
       <workItem from="1672274740527" duration="4352000" />
       <workItem from="1672371389567" duration="4454000" />
       <workItem from="1672418602342" duration="1698000" />
-      <workItem from="1672668210751" duration="4484000" />
+      <workItem from="1672668210751" duration="7915000" />
+      <workItem from="1672841316349" duration="2050000" />
+      <workItem from="1672873590958" duration="4491000" />
+      <workItem from="1672886199570" duration="933000" />
+      <workItem from="1672923676173" duration="405000" />
+      <workItem from="1672929158796" duration="3764000" />
+      <workItem from="1672971518324" duration="3800000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -257,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672373268758</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Updated font, header, hero text sizing, footer, color scheme, and some other cosmetic things.">
+      <created>1672681868777</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672681868777</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +311,7 @@
     <MESSAGE value="Switched domains over to test.btcre.com" />
     <MESSAGE value="btcre.com is down, switching domains back for client meeting. Also added the new logos, transitioning later." />
     <MESSAGE value="Updated font, header, hero text sizing, footer, color scheme, and some other cosmetic things." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated font, header, hero text sizing, footer, color scheme, and some other cosmetic things." />
+    <MESSAGE value="Trying to get the font to stop breaking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to get the font to stop breaking" />
   </component>
 </project>

@@ -22,9 +22,9 @@
         <nav class="hamburger-menu">
             <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
-                <li><a href="http://test.btcre.com/about">About</a></li>
-                <li><a>Portfolio <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="http://test.btcre.com/portfolio/35-37-medford-street">35-37 Medford Street</a></li>
+                <li><a href="http://test.btcre.com/our-team">Our Team</a></li>
+                <li><a>Our Work <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="http://test.btcre.com/our-work/35-37-medford-street">35-37 Medford Street</a></li>
             </ul>
         </nav>
     </div>
@@ -36,9 +36,9 @@
     </div>
 </section>
 
-<section class="s-about">
-    <div class="s-about-content">
-        <div class="about-header">
+<section class="s-our-team">
+    <div class="s-our-team-content">
+        <div class="our-team-header">
             <p>
                 Brian Iammartino and Ryan Gorman founded btcRE around a set of shared core values:
                 passion, integrity, collaboration, transparency, and creativity.
@@ -48,10 +48,10 @@
                 but also bring complementary experience and expertise in areas that are critical to our success.
             </p>
         </div>
-        <div class="about-text">
+        <div class="our-team-text">
             <h2><span class="animate-on-scroll">REimagining</span><br> the built environment.</h2>
             <p>
-                We're two middle-aged men who like to hang out in old buildings.
+                We"re two middle-aged men who like to hang out in old buildings.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -59,24 +59,24 @@
                 Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a href="http://test.btcre.com/"><span>Learn more about us </span><i class="fas fa-chevron-right"></i></a>
+            <a href="http://test.btcre.com/our-team"><span>Learn more about our team </span><i class="fas fa-chevron-right"></i></a>
         </div>
-        <div class="about-images animate-on-scroll"></div>
+        <div class="our-team-images animate-on-scroll"></div>
     </div>
 </section>
 
-<section class="s-portfolio">
-    <div class="s-portfolio-content">
-        <h2>Portfolio</h2>
-        <a class="portfolio-item animate-on-scroll" href="">
+<section class="s-our-work">
+    <div class="s-our-work-content">
+        <h2>Our Work</h2>
+        <a class="our-work-item animate-on-scroll" href="">
             <img class="animate-on-scroll" src="http://test.btcre.com/assets/placeholder.jpeg" alt="photo of 35-57 Medford Street, Boston, Massachusetts">
             <h4 class="animate-on-scroll">35-37 Medford Street</h4>
         </a>
-        <a class="portfolio-item animate-on-scroll" href="">
+        <a class="our-work-item animate-on-scroll" href="">
             <img class="animate-on-scroll" src="http://test.btcre.com/assets/placeholder.jpeg" alt="photo of 179 Bear Hill Road, Boston, Massachusetts">
             <h4 class="animate-on-scroll">Bear Hill Road</h4>
         </a>
-        <a class="portfolio-item animate-on-scroll" href="">
+        <a class="our-work-item animate-on-scroll" href="">
             <img class="animate-on-scroll" src="http://test.btcre.com/assets/placeholder.jpeg" alt="photo of Lorem Ipsum, Boston, Massachusetts">
             <h4 class="animate-on-scroll">Lorem Ipsum</h4>
         </a>
@@ -97,10 +97,10 @@
         -->
         <ul class="footer-list">
             <li>
-                <a class="hover-underline" href="http://test.btcre.com/about">About</a>
+                <a class="hover-underline" href="http://test.btcre.com/our-team">Our Team</a>
             </li>
             <li>
-                <a class="hover-underline" href="http://test.btcre.com/portfolio/35-37-medford-street">35-37 Medford
+                <a class="hover-underline" href="http://test.btcre.com/our-work/35-37-medford-street">35-37 Medford
                     Street</a>
             </li>
         </ul>
@@ -115,22 +115,22 @@
 
 <script>
     /*
-    Animate elements when they're scrolled to
+    Animate elements when they"re scrolled to
      */
     const scroll = window.requestAnimationFrame ||
         // For Internet Explorer, because it refuses to die
         function (callback) {
             window.setTimeout(callback, 1000 / 60)
         };
-    const elementsToShow = document.querySelectorAll('.animate-on-scroll');
+    const elementsToShow = document.querySelectorAll(".animate-on-scroll");
 
     function loop() {
-        // When element is visible, add the 'is-visible' class, and remove it after it leaves
+        // When element is visible, add the "is-visible" class, and remove it after it leaves
         Array.prototype.forEach.call(elementsToShow, function(element){
             if (isElementInViewport(element)) {
-                element.classList.add('is-visible');
+                element.classList.add("is-visible");
             } else {
-                element.classList.remove('is-visible');
+                element.classList.remove("is-visible");
             }
         });
 
@@ -158,10 +158,10 @@
     function toggleMenu() {
         if (screen.width < 1200) {
             if (menuIsOpen) {
-                document.querySelector(".hamburger-menu").classList.remove('open');
+                document.querySelector(".hamburger-menu").classList.remove("open");
                 menuIsOpen = false;
             } else if (!menuIsOpen) {
-                document.querySelector(".hamburger-menu").classList.add('open');
+                document.querySelector(".hamburger-menu").classList.add("open");
                 menuIsOpen = true;
             }
         }
