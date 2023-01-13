@@ -6,8 +6,8 @@
     <meta name="description" content="Boutique commercial real estate investment and consulting">
     <meta name="author" content="btcRE">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="shortcut icon" href="http://test.btcre.com/assets/btcre-logo.gif" >
-    <link rel="stylesheet" href="http://test.btcre.com/css/main.css">
+    <link rel="shortcut icon" href="http://test.btcre.com/assets/logos/logo-dark.png" >
+    <link rel="stylesheet" href="../../css/main.css">
     <script src="https://kit.fontawesome.com/4a185d27a6.js" crossorigin="anonymous"></script>
 </head>
 <body onload="hidePreloader()">
@@ -18,13 +18,12 @@
 
 <header class="header">
     <div class="header-content">
-        <a class="header-logo" href="http://test.btcre.com/"><img src="http://test.btcre.com/assets/btcre-logo.gif" alt="btcRE be the change real estate header logo"></a>
+        <a class="header-logo" href="http://test.btcre.com/"><img src="http://test.btcre.com/assets/logos/logo-dark.png" alt="btcRE be the change real estate header logo"></a>
         <nav class="hamburger-menu">
             <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
                 <li><a href="http://test.btcre.com/our-team">Our Team</a></li>
-                <li><a>Our Work <i class="fas fa-chevron-down"></i></a></li>
-                <li><a href="http://test.btcre.com/our-work/35-37-medford-street">35-37 Medford Street</a></li>
+                <li><a>Our Work</a></li>
             </ul>
         </nav>
     </div>
@@ -32,8 +31,8 @@
 
 <section class="s-top">
     <div class="s-top-content">
-        <h2>35-37 Medford Street</h2>
-        <a class="our-work-item animate-on-scroll" href="">
+        <h3>35-37 Medford Street</h3>
+        <a class="full-width-image animate-on-scroll" href="">
             <img alt="photo of Lorem Ipsum, Boston, Massachusetts" class="animate-on-scroll"
                  src="http://test.btcre.com/assets/placeholder.jpeg">
         </a>
@@ -59,7 +58,7 @@
     <div class="s-text-and-images-content">
         <div class="text-and-image">
             <div class="text-and-image-text">
-                <h2>Lorem Ipsum</h2>
+                <h3>Lorem Ipsum</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
@@ -74,7 +73,7 @@
                 <img alt="" src="http://test.btcre.com/assets/placeholder.jpeg">
             </div>
             <div class="text-and-image-text">
-                <h2>Lorem Ipsum</h2>
+                <h3>Lorem Ipsum</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.
@@ -157,7 +156,7 @@
 
     function loop() {
         // When element is visible, add the "is-visible" class, and remove it after it leaves
-        Array.prototype.forEach.call(elementsToShow, function (element) {
+        Array.prototype.forEach.call(elementsToShow, function(element){
             if (isElementInViewport(element)) {
                 element.classList.add("is-visible");
             } else {
@@ -186,9 +185,8 @@
 
     /* Toggle the hamburger menu on mobile */
     var menuIsOpen = false;
-
     function toggleMenu() {
-        if (screen.width < 1200) {
+        if (innerWidth < 1200) {
             if (menuIsOpen) {
                 document.querySelector(".hamburger-menu").classList.remove("open");
                 menuIsOpen = false;
@@ -201,11 +199,8 @@
 
     /* Preloader */
     document.querySelector(".preloader").style.display = "block";
-
     function hidePreloader() {
-        setTimeout(function () {
-            document.querySelector(".preloader").style.height = "0";
-        }, 1000)
+        document.querySelector(".preloader").style.height = "0";
     }
 
 </script>

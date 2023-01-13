@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Trying to get the font to stop breaking">
-      <change afterPath="$PROJECT_DIR$/btcre.com.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-bricks-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-bricks-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-bricks-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-bricks-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-tagline-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-tagline-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-tagline-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-tagline-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-vertical-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-vertical-dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/logos/logo-vertical-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/logos/logo-vertical-light.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btcRE.com-compressed.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/35-37-medford-street/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-work/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/35-37-medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,13 @@
       <workItem from="1672886199570" duration="933000" />
       <workItem from="1672923676173" duration="405000" />
       <workItem from="1672929158796" duration="3764000" />
-      <workItem from="1672971518324" duration="3800000" />
+      <workItem from="1672971518324" duration="6724000" />
+      <workItem from="1673015096796" duration="2434000" />
+      <workItem from="1673022805457" duration="4706000" />
+      <workItem from="1673046094428" duration="8690000" />
+      <workItem from="1673123554421" duration="3593000" />
+      <workItem from="1673541128313" duration="24370000" />
+      <workItem from="1673581749308" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672681868777</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Trying to get the font to stop breaking">
+      <created>1673010797943</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1673010797944</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
