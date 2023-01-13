@@ -206,6 +206,7 @@ u {
     width: 0;
     background-color: #4a4b4c;
     transition: 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
 }
 
 .hover-underline:hover:after,
@@ -219,8 +220,9 @@ u {
     margin: 0;
     padding: 0;
     color: #844a40;
-    transition: 2s ease-out;
-    -webkit-transition: 2s ease-out;
+    font-size: x-small;
+    transition: 3s ease-out;
+    -webkit-transition: 3s ease-out;
 }
 
 .grow-on-scroll.is-visible {
@@ -235,7 +237,7 @@ u {
     width: 100%;
     z-index: 100;
     background-color: #844a40;
-    transition: 0.5s ease-out;
+    transition: 1.5s ease;
 }
 
 /* Header */
@@ -371,7 +373,8 @@ u {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url("http://test.btcre.com/assets/placeholder.jpeg");
+    background-color: #844a40;
+    background-image: url("http://test.btcre.com/assets/hero-jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -557,6 +560,7 @@ u {
 
 .our-work-property-preview-text {
     padding: 1rem;
+    text-align: center;
 }
 
 @media (min-width: 1200px) {
