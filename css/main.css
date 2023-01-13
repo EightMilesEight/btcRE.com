@@ -36,6 +36,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: "helvetica", arial, sans-serif;
+    line-height: normal;
     color: #4a4b4c;
 }
 
@@ -105,6 +106,21 @@ a {
     text-decoration: none;
 }
 
+.page-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.page-content {
+    height: 100%;
+    width: auto;
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
 .link-button {
     display: block;
     height: 5rem;
@@ -140,7 +156,7 @@ a {
 .full-width-image {
     display: block;
     width: auto;
-    margin: 2rem 5rem;
+    margin: 2rem 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffffff;
@@ -151,8 +167,8 @@ a {
     width: 100%;
     border: 0;
     transform: scale(1.1);
-    transition: 2s ease-out;
-    -webkit-transition: 2s ease-out;
+    transition: 3s ease-in-out;
+    -webkit-transition: 3s ease-out;
 }
 
 .full-width-image.is-visible > img {
@@ -226,7 +242,7 @@ u {
 }
 
 .grow-on-scroll.is-visible {
-    font-size: larger;
+    font-size: unset;
 }
 
 /* Preloader */
@@ -235,7 +251,7 @@ u {
     position: fixed;
     height: 100vh;
     width: 100%;
-    z-index: 100;
+    z-index: 10;
     background-color: #844a40;
     transition: 1.5s ease;
 }
@@ -360,21 +376,9 @@ u {
 }
 
 /* Hero */
-.s-hero {
+#hero {
     height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-.s-hero-content {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #844a40;
-    background-image: url("http://test.btcre.com/assets/hero-jpeg");
+    background-image: url("http://test.btcre.com/assets/hero.jpeg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -397,46 +401,16 @@ u {
 }
 
 /* Our Team */
-.s-our-team {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-    background-color: #ffffff;
-}
-
-.s-our-team-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-}
 
 /* Our Team Header */
 .our-team-header {
     width: auto;
-    margin: 2rem 5rem;
+    margin: 2rem 0;
     padding: 0;
     font-size: 1.5rem;
 }
 
 /* Tenants */
-.s-tenants {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    z-index: 0;
-    background-color: #ffffff;
-}
-
-.s-tenants-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-}
 
 /* Tenants Text */
 .tenants-text {
@@ -476,7 +450,7 @@ u {
     display: flex;
     display: -webkit-flex;
     width: auto;
-    margin: 0.5rem 5rem;
+    margin: 0.5rem 0;
     padding: 0;
     justify-content: center;
     -webkit-justify-content: center;
@@ -503,40 +477,25 @@ u {
         display: flex;
         display: -webkit-flex;
         width: auto;
-        margin: 2rem 5rem;
+        margin: 2rem 0;
         padding: 0;
     }
 
     .tenants-list a {
         max-width: 15%;
-        margin: 1rem 5rem;
+        margin: 1rem 0;
     }
 }
 
 /* Our Work */
-.s-our-work {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-.s-our-work-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.s-our-work .text-and-image-text {
+#our-work .text-and-image-text {
     color: #4a4b4c;
 }
 
 .our-work-property-preview {
     display: block;
     width: auto;
-    margin: 5rem;
+    margin: 5rem 0;
     padding: 0;
     overflow: hidden;
     text-decoration: none;
@@ -549,9 +508,9 @@ u {
     width: 100%;
     height: auto;
     border: 0;
-    transform: scale(1.1);
-    transition: 2s ease-out;
-    -webkit-transition: 2s ease-out;
+    transform: scale(1.2);
+    transition: 5s ease-out;
+    -webkit-transition: 5s ease-out;
 }
 
 .our-work-property-preview.is-visible > img {
@@ -582,7 +541,7 @@ u {
     .our-work-property-preview-text {
         position: absolute;
         width: 100%;
-        height: 2.5rem;
+        height: 2rem;
         padding: 0 1rem;
         bottom: 0;
         left: 0;
@@ -599,28 +558,16 @@ u {
 }
 
 /* Top */
-.s-top {
-    width: 100%;
-    margin: 0;
+#top {
     padding: 10rem 0 0;
-    z-index: 0;
-    background-color: #ffffff;
 }
 
-.s-top-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.s-top h3 {
-    padding-left: 5rem;
+#top h3 {
+    padding-left: 0;
     color: #4a4b4c;
 }
 
-.s-top h3:before {
+#top h3:before {
     position: absolute;
     transform: translatey(-1rem);
     border-top: 5px solid #844a40;
@@ -628,31 +575,16 @@ u {
     width: 7rem;
 }
 
-.s-top p {
+#top p {
     width: auto;
-    margin: 2rem 5rem;
+    margin: 2rem 0;
     padding: 0;
     font-size: 2rem;
 }
 
 /* Our Team Bios */
-.our-team-s-bios {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
-}
-
-.our-team-s-bios-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-}
-
 .full-bio {
-    margin: 1rem 5rem;
+    margin: 1rem 0;
     padding: 0;
 }
 
@@ -694,7 +626,6 @@ u {
 }
 
 @media (min-width: 1200px) {
-
     .full-bio {
         margin: 5rem 0;
     }
@@ -720,27 +651,10 @@ u {
 }
 
 /* Text and Image */
-.s-text-and-images {
-    width: 100%;
-    margin: 0;
-    padding: 5rem 0;
-    z-index: 0;
-    background-color: #844a40;
-}
-
-.s-text-and-images-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
-    color: #ffffff;
-}
-
 .text-and-image {
     display: flex;
     width: auto;
-    margin: 0 5rem;
+    margin: 0;
     padding: 0;
     flex-direction: column;
 }
@@ -749,7 +663,7 @@ u {
     display: inline-block;
     width: auto;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
     vertical-align: top;
     font-size: 1.5rem;
 }
@@ -758,7 +672,7 @@ u {
     display: inline-block;
     width: auto;
     margin: 0;
-    padding: 1rem;
+    padding: 0;
 }
 
 .text-and-image-image > img {
@@ -769,9 +683,12 @@ u {
 @media (min-width: 1200px) {
     .text-and-image {
         flex-direction: row;
+        justify-content: space-between;
     }
 
-    .text-and-image-text,
+    .text-and-image-text {
+        max-width: 48%;
+    }
     .text-and-image-image {
         max-width: 50%;
     }
@@ -779,19 +696,8 @@ u {
 }
 
 /* Footer */
-.s-footer {
-    width: 100%;
-    margin: 0;
+#footer {
     padding: 2rem 0;
-    background-color: #ffffff;
-}
-
-.s-footer-content {
-    height: 100%;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0;
 }
 
 .footer-list {

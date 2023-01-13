@@ -4,13 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Absolute crapton of stuff. Header, nav bar, hamburger menu, completely overhauled property previews (they're awesome now), renamed a bunch of stuff per client's request, all that jazz &amp; more.">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/btcre-logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcRE.com.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-work/35-37-medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/medford-street/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1673046094428" duration="8690000" />
       <workItem from="1673123554421" duration="3593000" />
       <workItem from="1673541128313" duration="24370000" />
-      <workItem from="1673581749308" duration="7300000" />
+      <workItem from="1673581749308" duration="16430000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673585354161</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations.">
+      <created>1673631557011</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1673631557011</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +331,7 @@
     <MESSAGE value="Updated font, header, hero text sizing, footer, color scheme, and some other cosmetic things." />
     <MESSAGE value="Trying to get the font to stop breaking" />
     <MESSAGE value="Absolute crapton of stuff. Header, nav bar, hamburger menu, completely overhauled property previews (they're awesome now), renamed a bunch of stuff per client's request, all that jazz &amp; more." />
-    <option name="LAST_COMMIT_MESSAGE" value="Absolute crapton of stuff. Header, nav bar, hamburger menu, completely overhauled property previews (they're awesome now), renamed a bunch of stuff per client's request, all that jazz &amp; more." />
+    <MESSAGE value="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations." />
   </component>
 </project>
