@@ -4,32 +4,20 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site.">
-      <change afterPath="$PROJECT_DIR$/assets/about-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/hero.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino-laughing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/red-brick.png" afterDir="false" />
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/hero.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/154-cavalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/auto-lounge/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/auto-lounge/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/bear-hill-road/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/bear-hill-road/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/hunt-street/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/hunt-street/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/medford-street/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/medford-street/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/mspca-angell/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/mspca-angell/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/placeholder-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/placeholder.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/about-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about-hover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/about-us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about-us.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/books/example-book/example-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/224-cavalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/224-calvalry/thumbnail.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" afterPath="$PROJECT_DIR$/btcre.com.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +117,7 @@
       <workItem from="1675019323205" duration="60443000" />
       <workItem from="1675196474921" duration="10797000" />
       <workItem from="1675214685764" duration="15414000" />
-      <workItem from="1675307675023" duration="2089000" />
+      <workItem from="1675307675023" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -341,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673648310497</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully.">
+      <created>1675310333884</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1675310333884</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +377,7 @@
     <MESSAGE value="Refactored page content and spacing" />
     <MESSAGE value="Absolute crapton of stuff, I haven't been comitting here because I've been doing VC on the site." />
     <MESSAGE value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
-    <option name="LAST_COMMIT_MESSAGE" value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
+    <MESSAGE value="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully." />
+    <option name="LAST_COMMIT_MESSAGE" value="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully." />
   </component>
 </project>
