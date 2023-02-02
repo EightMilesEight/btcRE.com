@@ -4,9 +4,28 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations.">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site.">
+      <change afterPath="$PROJECT_DIR$/assets/about-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hero.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino-laughing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/red-brick.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btcRE.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/hero.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/154-cavalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/auto-lounge/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/auto-lounge/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/bear-hill-road/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/bear-hill-road/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/hunt-street/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/hunt-street/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/medford-street/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/medford-street/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/mspca-angell/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/mspca-angell/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/placeholder-portrait.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/placeholder.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/placeholder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" afterPath="$PROJECT_DIR$/btcre.com.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
@@ -47,11 +66,22 @@
     &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/miles/WebstormProjects/thebannedbooklibrary.com&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/btcRE.com/our-team/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,7 +119,17 @@
       <workItem from="1673046094428" duration="8690000" />
       <workItem from="1673123554421" duration="3593000" />
       <workItem from="1673541128313" duration="24370000" />
-      <workItem from="1673581749308" duration="16430000" />
+      <workItem from="1673581749308" duration="20283000" />
+      <workItem from="1673762494826" duration="291000" />
+      <workItem from="1673832085550" duration="3829000" />
+      <workItem from="1674439109519" duration="5616000" />
+      <workItem from="1674655921324" duration="171000" />
+      <workItem from="1674857897270" duration="6506000" />
+      <workItem from="1674945454237" duration="4978000" />
+      <workItem from="1675019323205" duration="60443000" />
+      <workItem from="1675196474921" duration="10797000" />
+      <workItem from="1675214685764" duration="15414000" />
+      <workItem from="1675307675023" duration="2089000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -294,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673631557011</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Refactored page content and spacing">
+      <created>1673648310496</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673648310497</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +379,9 @@
     <MESSAGE value="Trying to get the font to stop breaking" />
     <MESSAGE value="Absolute crapton of stuff. Header, nav bar, hamburger menu, completely overhauled property previews (they're awesome now), renamed a bunch of stuff per client's request, all that jazz &amp; more." />
     <MESSAGE value="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of images, copy, and alt text, as well as messing a bit with some animations." />
+    <MESSAGE value="Refactored page content and spacing" />
+    <MESSAGE value="Absolute crapton of stuff, I haven't been comitting here because I've been doing VC on the site." />
+    <MESSAGE value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
+    <option name="LAST_COMMIT_MESSAGE" value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
   </component>
 </project>
