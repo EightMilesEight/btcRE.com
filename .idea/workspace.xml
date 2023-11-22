@@ -6,18 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/about-hover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about-hover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/about-us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about-us.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/books/example-book/example-cover.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman-laughing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/224-cavalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/224-calvalry/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" afterPath="$PROJECT_DIR$/btcre.com.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/154-calvary/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnailjpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-work/224-calvalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/224-calvary/thumbnail.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +113,12 @@
       <workItem from="1675019323205" duration="60443000" />
       <workItem from="1675196474921" duration="10797000" />
       <workItem from="1675214685764" duration="15414000" />
-      <workItem from="1675307675023" duration="3891000" />
+      <workItem from="1675307675023" duration="5302000" />
+      <workItem from="1675359680420" duration="35000" />
+      <workItem from="1675896919926" duration="416000" />
+      <workItem from="1676479236900" duration="209000" />
+      <workItem from="1678133857259" duration="383000" />
+      <workItem from="1700677793160" duration="1014000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675310333884</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully.">
+      <created>1675312305960</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675312305960</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
