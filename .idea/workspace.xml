@@ -4,16 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully.">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated index.html with School Street">
+      <change afterPath="$PROJECT_DIR$/calvary-street-corridor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/154-calvary/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/154-calvalry/thumbnailjpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-work/224-calvalry/thumbnail.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-work/224-calvary/thumbnail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btcre.com.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-team/brian-iammartino.vcf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.vcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman.vcf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.vcf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-work/medford-street/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/btcRE.com/our-team/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -118,7 +123,10 @@
       <workItem from="1675896919926" duration="416000" />
       <workItem from="1676479236900" duration="209000" />
       <workItem from="1678133857259" duration="383000" />
-      <workItem from="1700677793160" duration="1014000" />
+      <workItem from="1700677793160" duration="1541000" />
+      <workItem from="1701351621485" duration="93000" />
+      <workItem from="1703282272343" duration="22000" />
+      <workItem from="1718284776565" duration="3254000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -344,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675312305960</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Updated index.html with School Street">
+      <created>1700679486457</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1700679486457</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Updated index.html with School Street">
+      <created>1700679752852</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1700679752852</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,6 +408,7 @@
     <MESSAGE value="Absolute crapton of stuff, I haven't been comitting here because I've been doing VC on the site." />
     <MESSAGE value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
     <MESSAGE value="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully." />
-    <option name="LAST_COMMIT_MESSAGE" value="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully." />
+    <MESSAGE value="Updated index.html with School Street" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated index.html with School Street" />
   </component>
 </project>

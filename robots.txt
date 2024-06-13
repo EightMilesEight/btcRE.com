@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /medford-street
+Disallow: /calvary-street-corridor
+Disallow: /CSC
+Disallow: /csc

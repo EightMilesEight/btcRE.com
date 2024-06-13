@@ -442,8 +442,8 @@ mark.is-visible {
     z-index: -1;
     image-rendering: optimizeSpeed;
     background-color: #4a4b4c;
-    background-image: url("https://btcre.com/assets/hero.jpg");
-    -webkit-background-image: url("https://btcre.com/assets/hero.jpg");
+    background-image: url("https://btcRE.com/assets/hero.jpg");
+    -webkit-background-image: url("https://btcRE.com/assets/hero.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     background-position: left;
@@ -481,8 +481,8 @@ mark.is-visible {
 
 /* Our Team */
 #our-team {
-    background-image: url("https://btcre.com/assets/about-background.jpg");
-    -webkit-background-image: url("https://btcre.com/assets/about-background.jpg");
+    background-image: url("https://btcRE.com/assets/about-background.jpg");
+    -webkit-background-image: url("https://btcRE.com/assets/about-background.jpg");
     background-size: cover;
     -webkit-background-size: cover;
 }
