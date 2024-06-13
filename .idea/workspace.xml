@@ -4,16 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated index.html with School Street">
-      <change afterPath="$PROJECT_DIR$/calvary-street-corridor/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Added Calvary Street Corridor and robots.txt">
+      <change afterPath="$PROJECT_DIR$/calvary-street-corridor/layout-prep.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-team/brian-iammartino.vcf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/brian-iammartino.vcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/our-team/ryan-gorman.vcf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/our-team/ryan-gorman.vcf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calvary-street-corridor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calvary-street-corridor/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/medford-street/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-work/medford-street/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/medford-street/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
       <workItem from="1700677793160" duration="1541000" />
       <workItem from="1701351621485" duration="93000" />
       <workItem from="1703282272343" duration="22000" />
-      <workItem from="1718284776565" duration="3254000" />
+      <workItem from="1718284776565" duration="4964000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -366,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700679752852</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Added Calvary Street Corridor and robots.txt">
+      <created>1718300109087</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1718300109087</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added nav bar" />
     <MESSAGE value="Added mini bios and started about page, messed a bit with header javascript" />
     <MESSAGE value="Messing with bios" />
     <MESSAGE value="Finally got the bios on the about page to look the way the client wants them (hopefully)" />
@@ -409,6 +413,7 @@
     <MESSAGE value="Absolute crapton of stuff, I haven't been committing here because I've been doing VC on the site." />
     <MESSAGE value="Metric ****ton of stuff. Launching tonight on btcre.com, hopefully." />
     <MESSAGE value="Updated index.html with School Street" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated index.html with School Street" />
+    <MESSAGE value="Added Calvary Street Corridor and robots.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Calvary Street Corridor and robots.txt" />
   </component>
 </project>

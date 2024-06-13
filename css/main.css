@@ -503,14 +503,14 @@ mark.is-visible {
 /* Tenants */
 
 /* Tenants Text */
-.tenants-text {
+.partners-text {
     width: 100%;
     margin: 2rem 0;
     padding: 0;
     text-align: center;
 }
 
-.tenants-text h3 {
+.partners-text h3 {
     display: unset;
     margin: 3rem 0 0;
     padding: 1rem;
@@ -519,7 +519,7 @@ mark.is-visible {
     color: #4a4b4c;
 }
 
-.tenants-text p {
+.partners-text p {
     max-width: 100%;
     margin: 2rem 0;
     padding: 1rem;
@@ -529,14 +529,16 @@ mark.is-visible {
 }
 
 @media (min-width: 1200px) {
-    .tenants-text p {
+    .partners-text p {
+        max-width: 70%;
+        margin: 1rem auto;
         padding: 0 2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
 /* Tenants List */
-.tenants-list {
+.partners-list {
     display: flex;
     display: -webkit-flex;
     width: auto;
@@ -550,7 +552,7 @@ mark.is-visible {
     -webkit-flex-wrap: wrap;
 }
 
-.tenants-list a {
+.partners-list a {
     max-width: 20%;
     margin: 0.5rem;
     padding: 0;
@@ -558,12 +560,12 @@ mark.is-visible {
     -webkit-align-self: center;
 }
 
-.tenants-list a img {
+.partners-list a img {
     width: 100%;
 }
 
 @media (min-width: 1200px) {
-    .tenants-list {
+    .partners-list {
         display: flex;
         display: -webkit-flex;
         width: auto;
@@ -571,9 +573,9 @@ mark.is-visible {
         padding: 0;
     }
 
-    .tenants-list a {
-        max-width: 15%;
-        margin: 1rem 0;
+    .partners-list a {
+        max-width: 13%;
+        margin: 0.75rem;
     }
 }
 
@@ -872,18 +874,20 @@ mark.is-visible {
 
 @media (min-width: 1200px) {
     .text-and-image {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         flex-direction: row;
         justify-content: space-between;
         gap: 5rem;
     }
 
     .text-and-image-text {
-        max-width: 40%;
+        max-width: 50%;
         margin: 0;
     }
 
     .text-and-image-image {
-        max-width: 50%;
+        max-width: 55%;
         margin: 0;
     }
 
