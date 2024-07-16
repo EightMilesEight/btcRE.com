@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Created layout prep and polished styles for CSC">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated CSC copy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calvary-street-corridor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calvary-street-corridor/index.html" afterDir="false" />
     </list>
@@ -121,7 +121,8 @@
       <workItem from="1703282272343" duration="22000" />
       <workItem from="1718284776565" duration="5592000" />
       <workItem from="1719099394514" duration="703000" />
-      <workItem from="1719760884446" duration="481000" />
+      <workItem from="1719760884446" duration="933000" />
+      <workItem from="1721169519328" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -375,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718302126837</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Updated CSC copy">
+      <created>1719761607382</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719761607382</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +401,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Messing with bios" />
     <MESSAGE value="Finally got the bios on the about page to look the way the client wants them (hopefully)" />
     <MESSAGE value="Still messing with the bios" />
     <MESSAGE value="Finished portfolio (for now)" />
@@ -418,6 +425,7 @@
     <MESSAGE value="Updated index.html with School Street" />
     <MESSAGE value="Added Calvary Street Corridor and robots.txt" />
     <MESSAGE value="Created layout prep and polished styles for CSC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created layout prep and polished styles for CSC" />
+    <MESSAGE value="Updated CSC copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CSC copy" />
   </component>
 </project>
