@@ -4,9 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated CSC copy">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated CSC map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/calvary-street-corridor/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/calvary-street-corridor/map.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calvary-street-corridor/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calvary-street-corridor/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +124,9 @@
       <workItem from="1718284776565" duration="5592000" />
       <workItem from="1719099394514" duration="703000" />
       <workItem from="1719760884446" duration="933000" />
-      <workItem from="1721169519328" duration="917000" />
+      <workItem from="1721169519328" duration="1050000" />
+      <workItem from="1722721422276" duration="49000" />
+      <workItem from="1725044195348" duration="2205000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -383,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719761607382</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Updated CSC map">
+      <created>1721171460184</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1721171460184</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +412,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finally got the bios on the about page to look the way the client wants them (hopefully)" />
     <MESSAGE value="Still messing with the bios" />
     <MESSAGE value="Finished portfolio (for now)" />
     <MESSAGE value="Hopefully made the hamburger menu work on mobile" />
@@ -426,6 +436,7 @@
     <MESSAGE value="Added Calvary Street Corridor and robots.txt" />
     <MESSAGE value="Created layout prep and polished styles for CSC" />
     <MESSAGE value="Updated CSC copy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated CSC copy" />
+    <MESSAGE value="Updated CSC map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated CSC map" />
   </component>
 </project>
