@@ -32,9 +32,10 @@
     <div class="page-content">
         <h3>Calvary Street Corridor</h3>
         <h5>Welcome to the Calvary Street Corridor in vibrant Waltham, Massachusetts. Situated on the banks of the Charles River and bordered by the Greenway, this burgeoning area is just steps away from international cuisine, coffee, yoga and more. </h5>
-        <a class="full-width-image animate-on-scroll" href="">
-            <img alt="Calvary Street Corridor Map" class="animate-on-scroll" src="https://btcRE.com/assets/calvary-street-corridor/map.png">
-        </a>
+        <div class="full-width-image animate-on-scroll">
+            <img alt="Calvary Street Corridor Map" class="animate-on-scroll" src="https://btcRE.com/assets/calvary-street-corridor/map.png" onclick="getElementById('map-fts').style.display='block';getElementById('map-fts').style.transform='translate(-50%, -50%)'">
+            <img id="map-fts" alt="Calvary Street Corridor Map" class="fit-to-screen-img" src="https://btcRE.com/assets/calvary-street-corridor/map.png" aria-hidden="true" onclick="getElementById('map-fts').style.display='none'">
+        </div>
         <p>
             The Calvary Street Corridor is ready for its next act.<br>
             <br>
