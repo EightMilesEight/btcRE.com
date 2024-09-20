@@ -124,6 +124,10 @@ a {
     text-decoration: none;
 }
 
+.red {
+	color: #844a40;
+}
+
 .page-section {
     width: 100%;
     margin: 0;

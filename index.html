@@ -22,7 +22,8 @@
         <nav class="hamburger-menu">
             <a href="javascript:void(0);" class="hamburger-menu-toggle" onclick="toggleMenu()"><i class=" fa-solid fa-bars"></i></a>
             <ul>
-                <li class="menu-item"><a href="https://btcRE.com/our-team" class="hover-underline">Our Team</a></li>
+                <li class="menu-item menu-item-1"><a href="https://btcRE.com/our-team" class="hover-underline">Our Team</a></li>
+                <li class="menu-item menu-item-2"><a href="https://btcRE.com/calvary-street-corridor" class="hover-underline">Calvary Street Corridor</a></li>
             </ul>
         </nav>
     </div>
@@ -172,6 +173,7 @@
         <ul class="footer-list">
             <li>
                 <a class="hover-underline" href="https://btcRE.com/our-team">Our Team</a>
+                <a class="hover-underline" href="https://btcRE.com/csc">Calvary Street Corridor</a>
             </li>
         </ul>
         <p class="footer-copyright">Copyright &copy;
@@ -253,8 +255,10 @@
         document.querySelector(".hamburger-menu-toggle i").style.backgroundColor = 'transparent';
         document.querySelector(".header-logo-dark").style.opacity = '0';
         document.querySelector(".header-logo-light").style.opacity = '1';
-        document.querySelector(".menu-item").style.color = '#ffffff';
-        document.querySelector(".menu-item").style.backgroundColor = 'transparent';
+        document.querySelector(".menu-item-1").style.color = '#ffffff';
+        document.querySelector(".menu-item-1").style.backgroundColor = 'transparent';
+        document.querySelector(".menu-item-2").style.color = '#ffffff';
+        document.querySelector(".menu-item-2").style.backgroundColor = 'transparent';
     }
 
     window.addEventListener("scroll", function() {
@@ -265,8 +269,10 @@
             document.querySelector(".hamburger-menu-toggle i").style.backgroundColor = '#ffffff';
             document.querySelector(".header-logo-dark").style.opacity = '1';
             document.querySelector(".header-logo-light").style.opacity = '0';
-            document.querySelector(".menu-item").style.color = '#844a40';
-            document.querySelector(".menu-item").style.backgroundColor = '#ffffff';
+            document.querySelector(".menu-item-1").style.color = '#844a40';
+            document.querySelector(".menu-item-1").style.backgroundColor = '#ffffff';
+            document.querySelector(".menu-item-2").style.color = '#844a40';
+            document.querySelector(".menu-item-2").style.backgroundColor = '#ffffff';
         }
 
         else {
@@ -276,8 +282,10 @@
             document.querySelector(".hamburger-menu-toggle i").style.backgroundColor = 'transparent';
             document.querySelector(".header-logo-dark").style.opacity = '0';
             document.querySelector(".header-logo-light").style.opacity = '1';
-            document.querySelector(".menu-item").style.color = '#ffffff';
-            document.querySelector(".menu-item").style.backgroundColor = 'transparent';
+            document.querySelector(".menu-item-1").style.color = '#ffffff';
+            document.querySelector(".menu-item-1").style.backgroundColor = 'transparent';
+            document.querySelector(".menu-item-2").style.color = '#ffffff';
+            document.querySelector(".menu-item-2").style.backgroundColor = 'transparent';
         }
     })
 
