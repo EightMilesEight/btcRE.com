@@ -1,4 +1,10 @@
-RewriteEngine On 
+RewriteOptions inherit
+RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} ^(www\.)?btcre\.com
 RewriteRule ^(.*)$ https://www.btcRE.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^btcre\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.btcre\.com$
+RewriteRule ^csc/?(.*)$ "https\:\/\/btcRE\.com\/calvary\-street\-corridor\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^CSC/?(.*)$ "https\:\/\/btcRE\.com\/calvary\-street\-corridor\/$1" [R=301,L]
