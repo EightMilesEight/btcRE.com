@@ -4,7 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Fixed Footer">
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Updated School Street Expected Delivery Date">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +127,7 @@
       <workItem from="1725146423032" duration="1109000" />
       <workItem from="1726839880628" duration="2168000" />
       <workItem from="1730589960178" duration="426000" />
+      <workItem from="1745193631039" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -415,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726841427949</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Updated School Street Expected Delivery Date">
+      <created>1745194006818</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1745194006822</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hopefully made the hamburger menu work on mobile (Part 2, electric boogaloo)" />
     <MESSAGE value="Hopefully made the hamburger menu work on mobile (Part 3, whoopee)" />
     <MESSAGE value="Made the hamburger menu work on mobile, now just rolling out the change." />
     <MESSAGE value="Fixed the centering issue on high-resolution screens, made the nav links actually work" />
@@ -458,6 +465,7 @@
     <MESSAGE value="Copy updates" />
     <MESSAGE value="Added fit-to-screen functionality for CSC map" />
     <MESSAGE value="Fixed Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Footer" />
+    <MESSAGE value="Updated School Street Expected Delivery Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated School Street Expected Delivery Date" />
   </component>
 </project>

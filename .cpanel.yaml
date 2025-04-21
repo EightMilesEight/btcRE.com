@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R calvary-street-corridor $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R medford-street $DEPLOYPATH
+    - /bin/cp -R our-team $DEPLOYPATH
+    - /bin/cp .cpanel.yaml $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp assets.zip $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp .robots.txt $DEPLOYPATH
