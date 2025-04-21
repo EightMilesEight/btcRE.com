@@ -8,7 +8,7 @@ deployment:
     - /bin/cp -R js $DEPLOYPATH
     - /bin/cp -R medford-street $DEPLOYPATH
     - /bin/cp -R our-team $DEPLOYPATH
-    - /bin/cp .cpanel.yaml $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp assets.zip $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
