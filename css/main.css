@@ -446,6 +446,8 @@ mark.is-visible {
     .menu-item {
         display: inline-block;
         height: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
         box-sizing: border-box;
         font-size: 1.5rem;
         background-color: unset;

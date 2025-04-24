@@ -4,7 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Fixed .cpanel.yaml (part 2, electric boogaloo)" />
+    <list default="true" id="4b0f7701-4001-4fff-92fd-c750f2cd41fe" name="Changes" comment="Fixed .cpanel.yml (part 3, whoopsie-dai-sy)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/our-team/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-team/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +129,8 @@
       <workItem from="1725146423032" duration="1109000" />
       <workItem from="1726839880628" duration="2168000" />
       <workItem from="1730589960178" duration="426000" />
-      <workItem from="1745193631039" duration="1430000" />
+      <workItem from="1745193631039" duration="1832000" />
+      <workItem from="1745506636248" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="Added nav bar">
       <created>1671741119375</created>
@@ -442,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1745195066791</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Fixed .cpanel.yml (part 2, electric boogaloo)">
+      <created>1745195092806</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1745195092806</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixed .cpanel.yml (part 3, whoopsie-dai-sy)">
+      <created>1745195336218</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1745195336218</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,8 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed the centering issue on high-resolution screens, made the nav links actually work" />
-    <MESSAGE value="Added footer" />
     <MESSAGE value="Housekeeping, finalizing some things, added footer copyright" />
     <MESSAGE value="Added preloader" />
     <MESSAGE value="Switched domains over to test.btcre.com" />
@@ -485,6 +502,8 @@
     <MESSAGE value="Updated School Street Expected Delivery Date" />
     <MESSAGE value="Added .cpanel.yaml" />
     <MESSAGE value="Fixed .cpanel.yaml (part 2, electric boogaloo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed .cpanel.yaml (part 2, electric boogaloo)" />
+    <MESSAGE value="Fixed .cpanel.yml (part 2, electric boogaloo)" />
+    <MESSAGE value="Fixed .cpanel.yml (part 3, whoopsie-dai-sy)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed .cpanel.yml (part 3, whoopsie-dai-sy)" />
   </component>
 </project>
